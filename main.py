@@ -3,8 +3,6 @@ import uuid
 import requests
 import sys
 from typing import List, Optional
-from llm import llm_compare_labels
-from classes import LabelMap
 
 def get_top_ontology_class_label(term: str, min_confidence: str, ontologies: Optional[List[str]] = None) -> Optional[str]:
     """
@@ -62,6 +60,36 @@ def get_top_ontology_class_label(term: str, min_confidence: str, ontologies: Opt
     # Return None if no suitable match was found or an error occurred.
     return None
 
+def get_ols_information(ols_code: str) -> dict:
+    
+    name = ols_code.split("/")[-2:]
+    ontology = ["pso", "peco", "efo"]
+
+    BASE = "https://www.ebi.ac.uk/ols4"
+    iri = "http%3A%2F%2Fpurl.obolibrary.org%2F" + name[0] + "%2F" + name[1]
+
+    output_dict = {
+        "uniq_id" : None,
+        "label" : None,
+        "description" : None,
+        "synonyms" : None
+    }
+
+    for ON in ontology:
+        resp = requests.get(
+                f"{BASE}/api/ontologies/{ON}/terms?iri={iri}",
+            )
+        if resp.status_code == 404:
+            continue  # not in this ontology, try the next one
+        else:
+            data = resp.json()["_embedded"]["terms"][0]
+            output_dict["uniq_id"] = name[1]
+            output_dict["label"] = data["label"]
+            output_dict["description"] = data["description"]
+            output_dict["synonyms"] = data["synonyms"]
+    
+    return output_dict
+    
 def ground_labels_with_api_call(data: dict) -> dict:
     """
     Grounds labels in a dictionary by making a real ontology API call.
@@ -78,7 +106,8 @@ def ground_labels_with_api_call(data: dict) -> dict:
     if 'Tissue' in grounded_data and isinstance(grounded_data['Tissue'], str):
         term = grounded_data['Tissue']
         api_response = get_top_ontology_class_label(term,'HIGH',['PSO','PECO','EFO'])
-        grounded_data['Tissue'] = api_response
+         #! took the first api link here
+        grounded_data['Tissue'] = get_ols_information(api_response[0])
 
     # Ground 'Treatment' labels
     if 'Treatment' in grounded_data and isinstance(grounded_data['Treatment'], list):
@@ -87,12 +116,17 @@ def ground_labels_with_api_call(data: dict) -> dict:
             api_response = get_top_ontology_class_label(term,'HIGH',['PECO'])
             # Check if the API found a grounded term.
             if api_response is not None:
-                grounded_treatments.append(api_response)
+                ## add ols label and desc
+                #! took the first api link here
+                ols_info = get_ols_information(api_response[0])
+                grounded_treatments.append(ols_info)
+                #grounded_treatments.append(api_response)
             else:
                 grounded_treatments.append(term)
         grounded_data['Treatment'] = grounded_treatments
 
     return grounded_data
+
 
 # --- Example Usage ---
 
@@ -101,22 +135,12 @@ sample_data = [
     {
         'id': str(uuid.uuid4()),
         'Tissue': 'leaves',
-        'Treatment': ['heat']
+        'Treatment': ['heat', 'salt', 'dark']
     },
     {
         'id': str(uuid.uuid4()),
         'Tissue': 'leaves',
-        'Treatment': ['heat']
-    },
-    {
-        'id': str(uuid.uuid4()),
-        'Tissue': 'leaf',
-        'Treatment': ['high temperature stress']
-    },
-    {
-        'id': str(uuid.uuid4()),
-        'Tissue': 'leaf',
-        'Treatment': ['high temperature stress']
+        'Treatment': ['high temperature stress', 'NaCl', 'dark']
     }
 ]
 
@@ -131,107 +155,3 @@ print("-" * 30)
 print("Grounded data:")
 print(json.dumps(grounded_data_list, indent=2))
 # TODO: check LLM
-
-grounded_data = [
-    {
-        'id': str(uuid.uuid4()),
-        'Tissue': {
-            'ID': 'PO_0025034',
-            'Label': 'leaf',
-            'Definition': 'A phyllome (phyllome) that is not associated with a reproductive structure.',
-            'Exact Synonyms':[],
-            'Related Synonyms':[],
-
-        },
-        'Treatment': [{
-            'ID': 'EO_0007173',
-            'Label': 'warm/hot temperature regimen',
-            'Definition': 'The treatment involving an exposure to above optimal temperature, which may depend on the study type or the regional environment.',
-            'Exact Synonyms':[],
-            'Related Synonyms':[],
-
-        }]
-    },
-    {
-        'id': str(uuid.uuid4()),
-        'Tissue': {
-            'ID': 'PO_0025034',
-            'Label': 'leaf',
-            'Definition': 'A phyllome (phyllome) that is not associated with a reproductive structure.',
-            'Exact Synonyms':[],
-            'Related Synonyms':[],
-
-        },
-        'Treatment': [{
-            'ID': 'EO_0007173',
-            'Label': 'warm/hot temperature regimen',
-            'Definition': 'The treatment involving an exposure to above optimal temperature, which may depend on the study type or the regional environment.',
-            'Exact Synonyms':[],
-            'Related Synonyms':[],
-
-        }]
-    },
-    {
-        'id': str(uuid.uuid4()),
-        'Tissue': {
-            'ID': 'PO_0025034',
-            'Label': 'leaf',
-            'Definition': 'A phyllome (phyllome) that is not associated with a reproductive structure.',
-            'Exact Synonyms':'',
-            'Related Synonyms':'',
-
-        },
-        'Treatment': [{
-            'ID': 'ENVO_09200001',
-            'Label': 'temperature of air',
-            'Definition': 'The temperature of some air.',
-            'Exact Synonyms':['air temperature'],
-            'Related Synonyms':[],
-
-        }]
-    },
-    {
-        'id': str(uuid.uuid4()),
-        'Tissue': {
-            'ID': 'PO_0025034',
-            'Label': 'leaf',
-            'Definition': 'A phyllome (phyllome) that is not associated with a reproductive structure.',
-            'Exact Synonyms':'',
-            'Related Synonyms':'',
-
-        },
-        'Treatment': [{
-            'ID': 'ENVO_09200001',
-            'Label': 'temperature of air',
-            'Definition': 'The temperature of some air.',
-            'Exact Synonyms':['air temperature'],
-            'Related Synonyms':[],
-
-        }]
-    }
-]
-
-
-def add_mapping(label,id):
-    print(label,id)
-    return
-
-
-
-
-
-def check_gorundings(grounded_data,sample_data):
-    grounded_data_list = []
-    seen_maps = LabelMap()
-    for grounded,og in zip(grounded_data,sample_data):
-        if seen_maps.check_past(og):
-            mask = llm_compare_labels(grounded,og,model='gemini-2.5-flash-lite')
-            grounded_data_list.append(mask)
-            seen_maps.add_mapping(og,grounded,mask)
-        else:
-            # these maps have been seen and approved already
-            pass
-    return grounded_data_list
-
-    
-print(check_gorundings(grounded_data,sample_data))
