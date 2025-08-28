@@ -3,8 +3,9 @@ import uuid
 import requests
 import sys
 from typing import List, Optional
-from llm import llm_compare_labels
+#from llm import llm_compare_labels
 from classes import LabelMap
+from functools import lru_cache
 
 from tqdm import tqdm
 
@@ -13,8 +14,8 @@ def load_json(path:str):
         object = json.load(file)
     return object
 
-
-def get_top_ontology_class_label(term: str, min_confidence: str, ontologies: Optional[List[str]] = None) -> Optional[str]:
+@lru_cache(maxsize=64)
+def get_top_ontology_class_label(term: str, min_confidence: str, ontologies: Optional[tuple] = None) -> Optional[str]:
     """
     Searches the Zooma API for an ontology class label based on a term,
     minimum confidence, and a set of specified ontologies.
@@ -74,6 +75,7 @@ def get_top_ontology_class_label(term: str, min_confidence: str, ontologies: Opt
     # Return None if no suitable match was found or an error occurred.
     return None
 
+@lru_cache(maxsize=64)
 def get_ols_information(ols_code: str) -> dict:
     
     name = ols_code.split("/")[-2:]
@@ -119,7 +121,7 @@ def ground_labels_with_api_call(data: dict) -> dict:
     # Ground 'Tissue' label
     if 'tissue' in grounded_data and isinstance(grounded_data['tissue'], str):
         term = grounded_data['tissue']
-        api_response = get_top_ontology_class_label(term,'HIGH',['PSO','PECO','EFO'])
+        api_response = get_top_ontology_class_label(term,'HIGH',('PSO','PECO','EFO'))
          #! took the first api link here
         grounded_data['tissue'] = get_ols_information(api_response[0])
 
@@ -127,7 +129,7 @@ def ground_labels_with_api_call(data: dict) -> dict:
     if 'treatment' in grounded_data and isinstance(grounded_data['treatment'], list):
         grounded_treatments = []
         for term in grounded_data['treatment']:
-            api_response = get_top_ontology_class_label(term,'MEDIUM',['PSO','PECO','EFO'])
+            api_response = get_top_ontology_class_label(term,'MEDIUM',('PSO','PECO','EFO'))
             # Check if the API found a grounded term.
             if api_response is not None:
                 ## add ols label and desc
@@ -159,24 +161,24 @@ for item in tqdm(sample_data):
 
 # save the result of the grounded data
 
-with open(f'saves/grounded.json', 'w') as handle:
+with open(f'grounded.json', 'w') as handle:
     json.dump(grounded_data, handle)
 
 # check LLM
 
-def check_gorundings(grounded_data,sample_data):
-    grounded_data_list = []
-    seen_maps = LabelMap('saves')
-    for grounded,og in tqdm(zip(grounded_data,sample_data)):
-        if seen_maps.check_past(og):
-            mask = llm_compare_labels(grounded,og,model='gemma3:12b', provider='ollama') #! this can crash when parsing we need to have better error recovery
-            grounded_data_list.append(mask)
-            seen_maps.add_mapping(og,grounded,mask)
-        else:
-            # these maps have been seen and approved already
-            pass
-    seen_maps.save_map()
-    return grounded_data_list
+# def check_gorundings(grounded_data,sample_data):
+#     grounded_data_list = []
+#     seen_maps = LabelMap('saves')
+#     for grounded,og in tqdm(zip(grounded_data,sample_data)):
+#         if seen_maps.check_past(og):
+#             mask = llm_compare_labels(grounded,og,model='gemma3:12b', provider='ollama') #! this can crash when parsing we need to have better error recovery
+#             grounded_data_list.append(mask)
+#             seen_maps.add_mapping(og,grounded,mask)
+#         else:
+#             # these maps have been seen and approved already
+#             pass
+#     seen_maps.save_map()
+#     return grounded_data_list
 
     
-print(check_gorundings(grounded_data,sample_data))
+# print(check_gorundings(grounded_data,sample_data))
