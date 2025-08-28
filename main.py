@@ -105,6 +105,16 @@ sample_data = [
     },
     {
         'id': str(uuid.uuid4()),
+        'Tissue': 'leaves',
+        'Treatment': ['heat']
+    },
+    {
+        'id': str(uuid.uuid4()),
+        'Tissue': 'leaf',
+        'Treatment': ['high temperature stress']
+    },
+    {
+        'id': str(uuid.uuid4()),
         'Tissue': 'leaf',
         'Treatment': ['high temperature stress']
     }
@@ -148,6 +158,44 @@ grounded_data = [
             'ID': 'PO_0025034',
             'Label': 'leaf',
             'Definition': 'A phyllome (phyllome) that is not associated with a reproductive structure.',
+            'Exact Synonyms':[],
+            'Related Synonyms':[],
+
+        },
+        'Treatment': [{
+            'ID': 'EO_0007173',
+            'Label': 'warm/hot temperature regimen',
+            'Definition': 'The treatment involving an exposure to above optimal temperature, which may depend on the study type or the regional environment.',
+            'Exact Synonyms':[],
+            'Related Synonyms':[],
+
+        }]
+    },
+    {
+        'id': str(uuid.uuid4()),
+        'Tissue': {
+            'ID': 'PO_0025034',
+            'Label': 'leaf',
+            'Definition': 'A phyllome (phyllome) that is not associated with a reproductive structure.',
+            'Exact Synonyms':'',
+            'Related Synonyms':'',
+
+        },
+        'Treatment': [{
+            'ID': 'ENVO_09200001',
+            'Label': 'temperature of air',
+            'Definition': 'The temperature of some air.',
+            'Exact Synonyms':['air temperature'],
+            'Related Synonyms':[],
+
+        }]
+    },
+    {
+        'id': str(uuid.uuid4()),
+        'Tissue': {
+            'ID': 'PO_0025034',
+            'Label': 'leaf',
+            'Definition': 'A phyllome (phyllome) that is not associated with a reproductive structure.',
             'Exact Synonyms':'',
             'Related Synonyms':'',
 
@@ -176,16 +224,14 @@ def check_gorundings(grounded_data,sample_data):
     grounded_data_list = []
     seen_maps = LabelMap()
     for grounded,og in zip(grounded_data,sample_data):
-        mask = llm_compare_labels(grounded,og,model='gemini-2.5-flash-lite')
-        grounded_data_list.append(mask)
-        for el in og:
-            if  isinstance(og[el],List):
-                for i,term in enumerate(og[el]):
-                    if mask[el][i]:
-                        seen_maps.add_mapping(term,grounded[el][i]['ID'])
-            elif el !='id':
-                if mask[el]:
-                    seen_maps.add_mapping(og[el],grounded[el]['ID'])
+        seen_maps.check_past(og)
+        if seen_maps.check_past(og):
+            mask = llm_compare_labels(grounded,og,model='gemini-2.5-flash-lite')
+            grounded_data_list.append(mask)
+            seen_maps.add_mapping(og,grounded,mask)
+        else:
+            # these maps have been seen and approved already
+            pass
     return grounded_data_list
 
     
