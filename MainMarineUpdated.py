@@ -341,4 +341,5 @@ manual_corrections, corrected_grounded_data = manual_correction(grounded_data, s
 
 # Sankey after manual corrections
 plot_sankey(corrected_grounded_data, sample_data, flag_map=manual_corrections,
-            title="Corrected → Grounded Labels (Red = still flagged)", output_file="saves/sankey_after.html")
+            title="Corrected → Grounded Labels (Red = previously flagged)", output_file="saves/sankey_after.html")
+
