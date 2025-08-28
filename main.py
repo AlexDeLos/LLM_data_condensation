@@ -224,7 +224,6 @@ def check_gorundings(grounded_data,sample_data):
     grounded_data_list = []
     seen_maps = LabelMap()
     for grounded,og in zip(grounded_data,sample_data):
-        seen_maps.check_past(og)
         if seen_maps.check_past(og):
             mask = llm_compare_labels(grounded,og,model='gemini-2.5-flash-lite')
             grounded_data_list.append(mask)
