@@ -28,10 +28,10 @@ class LabelMap:
     def add(self,label:str,id:str)->None:
         self.map[label] = id
 
-    def add_good(self,label:str,id:str)->None:
+    def add_good(self,label:str,id)->None:
         self.map_good[label] = id
 
-    def add_bad(self,label:str,id:str)->None:
+    def add_bad(self,label:str,id)->None:
         self.map_bad[label] = id
     
     def add_mapping(self,og,grounded,mask)->None:
@@ -39,14 +39,14 @@ class LabelMap:
             if  isinstance(og[el],List):
                 for i,term in enumerate(og[el]):
                     if mask[el][i]:
-                        self.add_good(term,grounded[el][i]['uniq_id'])
+                        self.add_good(term,(grounded[el][i]['uniq_id'],grounded[el][i]['label']))
                     else:
-                        self.add_bad(term,grounded[el][i]['uniq_id'])
+                        self.add_bad(term,(grounded[el][i]['uniq_id'],grounded[el][i]['label']))
             elif not (el =='id' or el == 'medium'):
                 if mask[el]:
-                    self.add_good(og[el],grounded[el]['uniq_id'])
+                    self.add_good(og[el],(grounded[el]['uniq_id'],grounded[el]['label']))
                 else:
-                    self.add_bad(og[el],grounded[el]['uniq_id'])
+                    self.add_bad(og[el],(grounded[el]['uniq_id'],grounded[el]['label']))
 
     def in_maps_evaluated(self,el)->bool:
         return el in self.map_good or el in self.map_bad

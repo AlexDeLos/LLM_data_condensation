@@ -53,7 +53,7 @@ def llm_compare_labels(grounded_labels:dict,original_labels:dict, model:str='gem
     try:
         result = parsing_llm.invoke({"text": parsing_prompt.format(original_labels=original_labels,grounded_labels=grounded_labels)})
     except:
-        return llm_compare_labels(grounded_labels,original_labels,model,provider)
+        return llm_compare_labels(grounded_labels,original_labels)
 
 
     return dict(result)
