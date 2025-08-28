@@ -4,6 +4,7 @@ import requests
 import sys
 from typing import List, Optional
 from llm import llm_compare_labels
+from classes import LabelMap
 
 def get_top_ontology_class_label(term: str, min_confidence: str, ontologies: Optional[List[str]] = None) -> Optional[str]:
     """
@@ -125,6 +126,7 @@ grounded_data = [
     {
         'id': str(uuid.uuid4()),
         'Tissue': {
+            'ID': 'PO_0025034',
             'Label': 'leaf',
             'Definition': 'A phyllome (phyllome) that is not associated with a reproductive structure.',
             'Exact Synonyms':[],
@@ -132,6 +134,7 @@ grounded_data = [
 
         },
         'Treatment': [{
+            'ID': 'EO_0007173',
             'Label': 'warm/hot temperature regimen',
             'Definition': 'The treatment involving an exposure to above optimal temperature, which may depend on the study type or the regional environment.',
             'Exact Synonyms':[],
@@ -142,6 +145,7 @@ grounded_data = [
     {
         'id': str(uuid.uuid4()),
         'Tissue': {
+            'ID': 'PO_0025034',
             'Label': 'leaf',
             'Definition': 'A phyllome (phyllome) that is not associated with a reproductive structure.',
             'Exact Synonyms':'',
@@ -149,6 +153,7 @@ grounded_data = [
 
         },
         'Treatment': [{
+            'ID': 'ENVO_09200001',
             'Label': 'temperature of air',
             'Definition': 'The temperature of some air.',
             'Exact Synonyms':['air temperature'],
@@ -159,6 +164,29 @@ grounded_data = [
 ]
 
 
-grounded_data_list = [llm_compare_labels(grounded,og,model='gemini-2.5-flash-lite') for grounded,og in zip(grounded_data,sample_data)]
+def add_mapping(label,id):
+    print(label,id)
+    return
 
-print(grounded_data_list)
+
+
+
+
+def check_gorundings(grounded_data,sample_data):
+    grounded_data_list = []
+    seen_maps = LabelMap()
+    for grounded,og in zip(grounded_data,sample_data):
+        mask = llm_compare_labels(grounded,og,model='gemini-2.5-flash-lite')
+        grounded_data_list.append(mask)
+        for el in og:
+            if  isinstance(og[el],List):
+                for i,term in enumerate(og[el]):
+                    if mask[el][i]:
+                        seen_maps.add_mapping(term,grounded[el][i]['ID'])
+            elif el !='id':
+                if mask[el]:
+                    seen_maps.add_mapping(og[el],grounded[el]['ID'])
+    return grounded_data_list
+
+    
+print(check_gorundings(grounded_data,sample_data))

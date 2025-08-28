@@ -11,12 +11,12 @@ dotenv.load_dotenv()
 
 #TODO: change this class to fit the structure of your original labels
 class LabelEvaluation(BaseModel):
-    tissue: bool = Field(..., description="If the grounding of the tissue label was successful or not.")
+    Tissue: bool = Field(..., description="If the grounding of the tissue label was successful or not.")
 
     # Field with description explaining its purpose
-    treatment: List[bool] = Field(..., description="List of booleans representing weather each of the treatment labels for the given sample was grounded succsefully or not")
+    Treatment: List[bool] = Field(..., description="List of booleans representing weather each of the treatment labels for the given sample was grounded succsefully or not")
 
-    tissue: bool = Field(..., description="If the grounding of the tissue label was successful or not.")
+    # tissue: bool = Field(..., description="If the grounding of the tissue label was successful or not.")
 
 def llm_compare_labels(grounded_labels:dict,original_labels:dict, model:str='gemini-2.5-flash',temp:float=0)->dict:
     llm = init_chat_model(model=model,
@@ -54,4 +54,4 @@ def llm_compare_labels(grounded_labels:dict,original_labels:dict, model:str='gem
     result = parsing_llm.invoke({"text": parsing_prompt.format(original_labels=original_labels,grounded_labels=grounded_labels)})
 
 
-    return result
+    return dict(result)
