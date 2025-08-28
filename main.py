@@ -78,11 +78,15 @@ def get_top_ontology_class_label(term: str, min_confidence: str, ontologies: Opt
 @lru_cache(maxsize=64)
 def get_ols_information(ols_code: str) -> dict:
     
-    name = ols_code.split("/")[-2:]
+    ols_parts = ols_code.split("/")
+    name = ols_parts[-2:]
     ontology = ["pso", "peco", "efo"]
-
+    
     BASE = "https://www.ebi.ac.uk/ols4"
-    iri = "http%3A%2F%2Fpurl.obolibrary.org%2F" + name[0] + "%2F" + name[1]
+    if ols_parts[-3] == "www.ebi.ac.uk":
+        iri = ols_code
+    else:
+        iri = "http%3A%2F%2Fpurl.obolibrary.org%2F" + name[0] + "%2F" + name[1]
 
     output_dict = {
         "uniq_id" : None,
@@ -149,7 +153,7 @@ def ground_labels_with_api_call(data: dict) -> dict:
     return grounded_data
 
 
-sample_data = load_json('labels.json')[:200]
+sample_data = load_json('labels.json')[100:200]
 for sample in sample_data:
     del sample['medium']
 # Process the data and ground the labels
