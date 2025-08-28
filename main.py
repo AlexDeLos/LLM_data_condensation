@@ -3,6 +3,7 @@ import uuid
 import requests
 import sys
 from typing import List, Optional
+from llm import llm_compare_labels
 
 def get_top_ontology_class_label(term: str, min_confidence: str, ontologies: Optional[List[str]] = None) -> Optional[str]:
     """
@@ -99,12 +100,12 @@ sample_data = [
     {
         'id': str(uuid.uuid4()),
         'Tissue': 'leaves',
-        'Treatment': ['heat', 'salt', 'dark']
+        'Treatment': ['heat']
     },
     {
         'id': str(uuid.uuid4()),
-        'Tissue': 'leaves',
-        'Treatment': ['high temperature stress', 'NaCl', 'dark']
+        'Tissue': 'leaf',
+        'Treatment': ['high temperature stress']
     }
 ]
 
@@ -119,3 +120,45 @@ print("-" * 30)
 print("Grounded data:")
 print(json.dumps(grounded_data_list, indent=2))
 # TODO: check LLM
+
+grounded_data = [
+    {
+        'id': str(uuid.uuid4()),
+        'Tissue': {
+            'Label': 'leaf',
+            'Definition': 'A phyllome (phyllome) that is not associated with a reproductive structure.',
+            'Exact Synonyms':[],
+            'Related Synonyms':[],
+
+        },
+        'Treatment': [{
+            'Label': 'warm/hot temperature regimen',
+            'Definition': 'The treatment involving an exposure to above optimal temperature, which may depend on the study type or the regional environment.',
+            'Exact Synonyms':[],
+            'Related Synonyms':[],
+
+        }]
+    },
+    {
+        'id': str(uuid.uuid4()),
+        'Tissue': {
+            'Label': 'leaf',
+            'Definition': 'A phyllome (phyllome) that is not associated with a reproductive structure.',
+            'Exact Synonyms':'',
+            'Related Synonyms':'',
+
+        },
+        'Treatment': [{
+            'Label': 'temperature of air',
+            'Definition': 'The temperature of some air.',
+            'Exact Synonyms':['air temperature'],
+            'Related Synonyms':[],
+
+        }]
+    }
+]
+
+
+grounded_data_list = [llm_compare_labels(grounded,og,model='gemini-2.5-flash-lite') for grounded,og in zip(grounded_data,sample_data)]
+
+print(grounded_data_list)
