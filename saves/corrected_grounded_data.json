@@ -1,0 +1,2778 @@
+[
+    {
+        "tissue": {
+            "uniq_id": "PO_0025034",
+            "label": "leaf",
+            "description": [
+                "A phyllome (PO:0006001) that is not associated with a reproductive structure."
+            ],
+            "synonyms": [
+                "hoja (Spanish, exact)",
+                "\u8449 (Japanese, exact)"
+            ]
+        },
+        "treatment": [
+            {
+                "uniq_id": "EFO_0001461",
+                "label": "control",
+                "description": [
+                    "A control role is borne by a material in a process in which results obtained from an experimental sample and a control sample are compared."
+                ],
+                "synonyms": [
+                    "Controlled",
+                    "Controlling",
+                    "reference sample"
+                ]
+            }
+        ],
+        "id": "GSM1494574"
+    },
+    {
+        "tissue": {
+            "uniq_id": "PO_0025034",
+            "label": "leaf",
+            "description": [
+                "A phyllome (PO:0006001) that is not associated with a reproductive structure."
+            ],
+            "synonyms": [
+                "hoja (Spanish, exact)",
+                "\u8449 (Japanese, exact)"
+            ]
+        },
+        "treatment": [
+            {
+                "uniq_id": "PSO_0000001",
+                "label": "plant stress",
+                "description": [
+                    "A biological process of some plant (PO whole plant, or NCBI viridiplantae) caused by exposure to an environment containing some stressor agent."
+                ],
+                "synonyms": []
+            }
+        ],
+        "id": "GSM1494573"
+    },
+    {
+        "tissue": {
+            "uniq_id": "PO_0025615",
+            "label": "rosette",
+            "description": [
+                "A collective leaf structure (PO:0025022) consisting of a group of rosette leaves (PO:0000014), generally borne at the base of the plant, that are separated by very short stem internodes (PO:0020142)."
+            ],
+            "synonyms": []
+        },
+        "treatment": [
+            {
+                "uniq_id": "CHEBI_15377",
+                "label": "water",
+                "description": [
+                    "An oxygen hydride consisting of an oxygen atom that is covalently bonded to two hydrogen atoms"
+                ],
+                "synonyms": [
+                    "WATER",
+                    "Water",
+                    "oxidane",
+                    "water",
+                    "BOUND WATER",
+                    "H2O",
+                    "HOH",
+                    "Wasser",
+                    "[OH2]",
+                    "acqua",
+                    "agua",
+                    "aqua",
+                    "dihydridooxygen",
+                    "dihydrogen oxide",
+                    "eau",
+                    "hydrogen hydroxide"
+                ]
+            }
+        ],
+        "id": "GSM389767"
+    },
+    {
+        "tissue": {
+            "uniq_id": "PO_0025615",
+            "label": "rosette",
+            "description": [
+                "A collective leaf structure (PO:0025022) consisting of a group of rosette leaves (PO:0000014), generally borne at the base of the plant, that are separated by very short stem internodes (PO:0020142)."
+            ],
+            "synonyms": []
+        },
+        "treatment": [
+            {
+                "uniq_id": "CHEBI_15377",
+                "label": "water",
+                "description": [
+                    "An oxygen hydride consisting of an oxygen atom that is covalently bonded to two hydrogen atoms"
+                ],
+                "synonyms": [
+                    "WATER",
+                    "Water",
+                    "oxidane",
+                    "water",
+                    "BOUND WATER",
+                    "H2O",
+                    "HOH",
+                    "Wasser",
+                    "[OH2]",
+                    "acqua",
+                    "agua",
+                    "aqua",
+                    "dihydridooxygen",
+                    "dihydrogen oxide",
+                    "eau",
+                    "hydrogen hydroxide"
+                ]
+            }
+        ],
+        "id": "GSM389768"
+    },
+    {
+        "tissue": {
+            "uniq_id": "PO_0025615",
+            "label": "rosette",
+            "description": [
+                "A collective leaf structure (PO:0025022) consisting of a group of rosette leaves (PO:0000014), generally borne at the base of the plant, that are separated by very short stem internodes (PO:0020142)."
+            ],
+            "synonyms": []
+        },
+        "treatment": [
+            {
+                "uniq_id": "PSO_0000163",
+                "label": "drought environment",
+                "description": [
+                    "A Oryza sativa disease caused a Pythium affecting a whole plant."
+                ],
+                "synonyms": []
+            }
+        ],
+        "id": "GSM389776"
+    },
+    {
+        "tissue": {
+            "uniq_id": "PO_0025615",
+            "label": "rosette",
+            "description": [
+                "A collective leaf structure (PO:0025022) consisting of a group of rosette leaves (PO:0000014), generally borne at the base of the plant, that are separated by very short stem internodes (PO:0020142)."
+            ],
+            "synonyms": []
+        },
+        "treatment": [
+            {
+                "uniq_id": "PSO_0000163",
+                "label": "drought environment",
+                "description": [
+                    "A Oryza sativa disease caused a Pythium affecting a whole plant."
+                ],
+                "synonyms": []
+            }
+        ],
+        "id": "GSM389775"
+    },
+    {
+        "tissue": {
+            "uniq_id": "PO_0025615",
+            "label": "rosette",
+            "description": [
+                "A collective leaf structure (PO:0025022) consisting of a group of rosette leaves (PO:0000014), generally borne at the base of the plant, that are separated by very short stem internodes (PO:0020142)."
+            ],
+            "synonyms": []
+        },
+        "treatment": [
+            {
+                "uniq_id": "CHEBI_15377",
+                "label": "water",
+                "description": [
+                    "An oxygen hydride consisting of an oxygen atom that is covalently bonded to two hydrogen atoms"
+                ],
+                "synonyms": [
+                    "WATER",
+                    "Water",
+                    "oxidane",
+                    "water",
+                    "BOUND WATER",
+                    "H2O",
+                    "HOH",
+                    "Wasser",
+                    "[OH2]",
+                    "acqua",
+                    "agua",
+                    "aqua",
+                    "dihydridooxygen",
+                    "dihydrogen oxide",
+                    "eau",
+                    "hydrogen hydroxide"
+                ]
+            }
+        ],
+        "id": "GSM389770"
+    },
+    {
+        "tissue": {
+            "uniq_id": "PO_0025615",
+            "label": "rosette",
+            "description": [
+                "A collective leaf structure (PO:0025022) consisting of a group of rosette leaves (PO:0000014), generally borne at the base of the plant, that are separated by very short stem internodes (PO:0020142)."
+            ],
+            "synonyms": []
+        },
+        "treatment": [
+            {
+                "uniq_id": "PSO_0000163",
+                "label": "drought environment",
+                "description": [
+                    "A Oryza sativa disease caused a Pythium affecting a whole plant."
+                ],
+                "synonyms": []
+            }
+        ],
+        "id": "GSM389772"
+    },
+    {
+        "tissue": {
+            "uniq_id": "PO_0025615",
+            "label": "rosette",
+            "description": [
+                "A collective leaf structure (PO:0025022) consisting of a group of rosette leaves (PO:0000014), generally borne at the base of the plant, that are separated by very short stem internodes (PO:0020142)."
+            ],
+            "synonyms": []
+        },
+        "treatment": [
+            {
+                "uniq_id": "PSO_0000163",
+                "label": "drought environment",
+                "description": [
+                    "A Oryza sativa disease caused a Pythium affecting a whole plant."
+                ],
+                "synonyms": []
+            }
+        ],
+        "id": "GSM389774"
+    },
+    {
+        "tissue": {
+            "uniq_id": "PO_0025615",
+            "label": "rosette",
+            "description": [
+                "A collective leaf structure (PO:0025022) consisting of a group of rosette leaves (PO:0000014), generally borne at the base of the plant, that are separated by very short stem internodes (PO:0020142)."
+            ],
+            "synonyms": []
+        },
+        "treatment": [
+            {
+                "uniq_id": "CHEBI_15377",
+                "label": "water",
+                "description": [
+                    "An oxygen hydride consisting of an oxygen atom that is covalently bonded to two hydrogen atoms"
+                ],
+                "synonyms": [
+                    "WATER",
+                    "Water",
+                    "oxidane",
+                    "water",
+                    "BOUND WATER",
+                    "H2O",
+                    "HOH",
+                    "Wasser",
+                    "[OH2]",
+                    "acqua",
+                    "agua",
+                    "aqua",
+                    "dihydridooxygen",
+                    "dihydrogen oxide",
+                    "eau",
+                    "hydrogen hydroxide"
+                ]
+            }
+        ],
+        "id": "GSM389769"
+    },
+    {
+        "tissue": {
+            "uniq_id": "PO_0025615",
+            "label": "rosette",
+            "description": [
+                "A collective leaf structure (PO:0025022) consisting of a group of rosette leaves (PO:0000014), generally borne at the base of the plant, that are separated by very short stem internodes (PO:0020142)."
+            ],
+            "synonyms": []
+        },
+        "treatment": [
+            {
+                "uniq_id": "PSO_0000163",
+                "label": "drought environment",
+                "description": [
+                    "A Oryza sativa disease caused a Pythium affecting a whole plant."
+                ],
+                "synonyms": []
+            }
+        ],
+        "id": "GSM389773"
+    },
+    {
+        "tissue": {
+            "uniq_id": "PO_0025615",
+            "label": "rosette",
+            "description": [
+                "A collective leaf structure (PO:0025022) consisting of a group of rosette leaves (PO:0000014), generally borne at the base of the plant, that are separated by very short stem internodes (PO:0020142)."
+            ],
+            "synonyms": []
+        },
+        "treatment": [
+            {
+                "uniq_id": "CHEBI_15377",
+                "label": "water",
+                "description": [
+                    "An oxygen hydride consisting of an oxygen atom that is covalently bonded to two hydrogen atoms"
+                ],
+                "synonyms": [
+                    "WATER",
+                    "Water",
+                    "oxidane",
+                    "water",
+                    "BOUND WATER",
+                    "H2O",
+                    "HOH",
+                    "Wasser",
+                    "[OH2]",
+                    "acqua",
+                    "agua",
+                    "aqua",
+                    "dihydridooxygen",
+                    "dihydrogen oxide",
+                    "eau",
+                    "hydrogen hydroxide"
+                ]
+            }
+        ],
+        "id": "GSM389766"
+    },
+    {
+        "tissue": {
+            "uniq_id": "PO_0025615",
+            "label": "rosette",
+            "description": [
+                "A collective leaf structure (PO:0025022) consisting of a group of rosette leaves (PO:0000014), generally borne at the base of the plant, that are separated by very short stem internodes (PO:0020142)."
+            ],
+            "synonyms": []
+        },
+        "treatment": [
+            {
+                "uniq_id": "CHEBI_15377",
+                "label": "water",
+                "description": [
+                    "An oxygen hydride consisting of an oxygen atom that is covalently bonded to two hydrogen atoms"
+                ],
+                "synonyms": [
+                    "WATER",
+                    "Water",
+                    "oxidane",
+                    "water",
+                    "BOUND WATER",
+                    "H2O",
+                    "HOH",
+                    "Wasser",
+                    "[OH2]",
+                    "acqua",
+                    "agua",
+                    "aqua",
+                    "dihydridooxygen",
+                    "dihydrogen oxide",
+                    "eau",
+                    "hydrogen hydroxide"
+                ]
+            }
+        ],
+        "id": "GSM389771"
+    },
+    {
+        "tissue": {
+            "uniq_id": "PO_0025615",
+            "label": "rosette",
+            "description": [
+                "A collective leaf structure (PO:0025022) consisting of a group of rosette leaves (PO:0000014), generally borne at the base of the plant, that are separated by very short stem internodes (PO:0020142)."
+            ],
+            "synonyms": []
+        },
+        "treatment": [
+            {
+                "uniq_id": "PSO_0000163",
+                "label": "drought environment",
+                "description": [
+                    "A Oryza sativa disease caused a Pythium affecting a whole plant."
+                ],
+                "synonyms": []
+            }
+        ],
+        "id": "GSM389777"
+    },
+    {
+        "tissue": {
+            "uniq_id": "PO_0009006",
+            "label": "shoot system",
+            "description": [
+                "A collective plant organ structure (PO:0025007) that produces shoot-borne portions of meristem tissue (PO:0009013) and the plant structures (PO:0009011) that arise from them.",
+                "The shoot system is generally used to refer to the above-ground plant parts, although some plants have parts of their shoot system underground. For example, a rhizome (PO:0004542), bulb (PO:0025356), a corm (PO:0025355) or a subterranean tuber (PO:0004547), as in Solanum tuberosum (potato) or yam, are all part of the shoot system."
+            ],
+            "synonyms": [
+                "sistema de epiblasto (epiblastema) (Spanish, exact)",
+                "\u30b7\u30e5\u30fc\u30c8\u7cfb\u3001\u82d7\u6761\u7cfb (Japanese, exact)",
+                "tree crown (narrow)",
+                "Poaceae crown (related)",
+                "shoot (related)",
+                "thalli (related, plural)",
+                "thallus (related)"
+            ]
+        },
+        "treatment": [
+            {
+                "uniq_id": "EO_0007404",
+                "label": "drought environment",
+                "description": [
+                    "an environment in plant experiments to understand how plants respond to episodic drought and watering pulse by depriving the plants of water supply"
+                ],
+                "synonyms": []
+            }
+        ],
+        "id": "GSM3017911"
+    },
+    {
+        "tissue": {
+            "uniq_id": "PO_0009006",
+            "label": "shoot system",
+            "description": [
+                "A collective plant organ structure (PO:0025007) that produces shoot-borne portions of meristem tissue (PO:0009013) and the plant structures (PO:0009011) that arise from them.",
+                "The shoot system is generally used to refer to the above-ground plant parts, although some plants have parts of their shoot system underground. For example, a rhizome (PO:0004542), bulb (PO:0025356), a corm (PO:0025355) or a subterranean tuber (PO:0004547), as in Solanum tuberosum (potato) or yam, are all part of the shoot system."
+            ],
+            "synonyms": [
+                "sistema de epiblasto (epiblastema) (Spanish, exact)",
+                "\u30b7\u30e5\u30fc\u30c8\u7cfb\u3001\u82d7\u6761\u7cfb (Japanese, exact)",
+                "tree crown (narrow)",
+                "Poaceae crown (related)",
+                "shoot (related)",
+                "thalli (related, plural)",
+                "thallus (related)"
+            ]
+        },
+        "treatment": [
+            {
+                "uniq_id": "EO_0007404",
+                "label": "drought environment",
+                "description": [
+                    "an environment in plant experiments to understand how plants respond to episodic drought and watering pulse by depriving the plants of water supply"
+                ],
+                "synonyms": []
+            }
+        ],
+        "id": "GSM3017917"
+    },
+    {
+        "tissue": {
+            "uniq_id": "PO_0009006",
+            "label": "shoot system",
+            "description": [
+                "A collective plant organ structure (PO:0025007) that produces shoot-borne portions of meristem tissue (PO:0009013) and the plant structures (PO:0009011) that arise from them.",
+                "The shoot system is generally used to refer to the above-ground plant parts, although some plants have parts of their shoot system underground. For example, a rhizome (PO:0004542), bulb (PO:0025356), a corm (PO:0025355) or a subterranean tuber (PO:0004547), as in Solanum tuberosum (potato) or yam, are all part of the shoot system."
+            ],
+            "synonyms": [
+                "sistema de epiblasto (epiblastema) (Spanish, exact)",
+                "\u30b7\u30e5\u30fc\u30c8\u7cfb\u3001\u82d7\u6761\u7cfb (Japanese, exact)",
+                "tree crown (narrow)",
+                "Poaceae crown (related)",
+                "shoot (related)",
+                "thalli (related, plural)",
+                "thallus (related)"
+            ]
+        },
+        "treatment": [
+            {
+                "uniq_id": "EO_0007404",
+                "label": "drought environment",
+                "description": [
+                    "an environment in plant experiments to understand how plants respond to episodic drought and watering pulse by depriving the plants of water supply"
+                ],
+                "synonyms": []
+            }
+        ],
+        "id": "GSM3017909"
+    },
+    {
+        "tissue": {
+            "uniq_id": "PO_0009006",
+            "label": "shoot system",
+            "description": [
+                "A collective plant organ structure (PO:0025007) that produces shoot-borne portions of meristem tissue (PO:0009013) and the plant structures (PO:0009011) that arise from them.",
+                "The shoot system is generally used to refer to the above-ground plant parts, although some plants have parts of their shoot system underground. For example, a rhizome (PO:0004542), bulb (PO:0025356), a corm (PO:0025355) or a subterranean tuber (PO:0004547), as in Solanum tuberosum (potato) or yam, are all part of the shoot system."
+            ],
+            "synonyms": [
+                "sistema de epiblasto (epiblastema) (Spanish, exact)",
+                "\u30b7\u30e5\u30fc\u30c8\u7cfb\u3001\u82d7\u6761\u7cfb (Japanese, exact)",
+                "tree crown (narrow)",
+                "Poaceae crown (related)",
+                "shoot (related)",
+                "thalli (related, plural)",
+                "thallus (related)"
+            ]
+        },
+        "treatment": [],
+        "id": "GSM3017914"
+    },
+    {
+        "tissue": {
+            "uniq_id": "PO_0009006",
+            "label": "shoot system",
+            "description": [
+                "A collective plant organ structure (PO:0025007) that produces shoot-borne portions of meristem tissue (PO:0009013) and the plant structures (PO:0009011) that arise from them.",
+                "The shoot system is generally used to refer to the above-ground plant parts, although some plants have parts of their shoot system underground. For example, a rhizome (PO:0004542), bulb (PO:0025356), a corm (PO:0025355) or a subterranean tuber (PO:0004547), as in Solanum tuberosum (potato) or yam, are all part of the shoot system."
+            ],
+            "synonyms": [
+                "sistema de epiblasto (epiblastema) (Spanish, exact)",
+                "\u30b7\u30e5\u30fc\u30c8\u7cfb\u3001\u82d7\u6761\u7cfb (Japanese, exact)",
+                "tree crown (narrow)",
+                "Poaceae crown (related)",
+                "shoot (related)",
+                "thalli (related, plural)",
+                "thallus (related)"
+            ]
+        },
+        "treatment": [
+            {
+                "uniq_id": "EO_0007404",
+                "label": "drought environment",
+                "description": [
+                    "an environment in plant experiments to understand how plants respond to episodic drought and watering pulse by depriving the plants of water supply"
+                ],
+                "synonyms": []
+            }
+        ],
+        "id": "GSM3017916"
+    },
+    {
+        "tissue": {
+            "uniq_id": "PO_0009006",
+            "label": "shoot system",
+            "description": [
+                "A collective plant organ structure (PO:0025007) that produces shoot-borne portions of meristem tissue (PO:0009013) and the plant structures (PO:0009011) that arise from them.",
+                "The shoot system is generally used to refer to the above-ground plant parts, although some plants have parts of their shoot system underground. For example, a rhizome (PO:0004542), bulb (PO:0025356), a corm (PO:0025355) or a subterranean tuber (PO:0004547), as in Solanum tuberosum (potato) or yam, are all part of the shoot system."
+            ],
+            "synonyms": [
+                "sistema de epiblasto (epiblastema) (Spanish, exact)",
+                "\u30b7\u30e5\u30fc\u30c8\u7cfb\u3001\u82d7\u6761\u7cfb (Japanese, exact)",
+                "tree crown (narrow)",
+                "Poaceae crown (related)",
+                "shoot (related)",
+                "thalli (related, plural)",
+                "thallus (related)"
+            ]
+        },
+        "treatment": [],
+        "id": "GSM3017907"
+    },
+    {
+        "tissue": {
+            "uniq_id": "PO_0009006",
+            "label": "shoot system",
+            "description": [
+                "A collective plant organ structure (PO:0025007) that produces shoot-borne portions of meristem tissue (PO:0009013) and the plant structures (PO:0009011) that arise from them.",
+                "The shoot system is generally used to refer to the above-ground plant parts, although some plants have parts of their shoot system underground. For example, a rhizome (PO:0004542), bulb (PO:0025356), a corm (PO:0025355) or a subterranean tuber (PO:0004547), as in Solanum tuberosum (potato) or yam, are all part of the shoot system."
+            ],
+            "synonyms": [
+                "sistema de epiblasto (epiblastema) (Spanish, exact)",
+                "\u30b7\u30e5\u30fc\u30c8\u7cfb\u3001\u82d7\u6761\u7cfb (Japanese, exact)",
+                "tree crown (narrow)",
+                "Poaceae crown (related)",
+                "shoot (related)",
+                "thalli (related, plural)",
+                "thallus (related)"
+            ]
+        },
+        "treatment": [],
+        "id": "GSM3017906"
+    },
+    {
+        "tissue": {
+            "uniq_id": "PO_0009006",
+            "label": "shoot system",
+            "description": [
+                "A collective plant organ structure (PO:0025007) that produces shoot-borne portions of meristem tissue (PO:0009013) and the plant structures (PO:0009011) that arise from them.",
+                "The shoot system is generally used to refer to the above-ground plant parts, although some plants have parts of their shoot system underground. For example, a rhizome (PO:0004542), bulb (PO:0025356), a corm (PO:0025355) or a subterranean tuber (PO:0004547), as in Solanum tuberosum (potato) or yam, are all part of the shoot system."
+            ],
+            "synonyms": [
+                "sistema de epiblasto (epiblastema) (Spanish, exact)",
+                "\u30b7\u30e5\u30fc\u30c8\u7cfb\u3001\u82d7\u6761\u7cfb (Japanese, exact)",
+                "tree crown (narrow)",
+                "Poaceae crown (related)",
+                "shoot (related)",
+                "thalli (related, plural)",
+                "thallus (related)"
+            ]
+        },
+        "treatment": [
+            {
+                "uniq_id": "EO_0007404",
+                "label": "drought environment",
+                "description": [
+                    "an environment in plant experiments to understand how plants respond to episodic drought and watering pulse by depriving the plants of water supply"
+                ],
+                "synonyms": []
+            }
+        ],
+        "id": "GSM3017910"
+    },
+    {
+        "tissue": {
+            "uniq_id": "PO_0009006",
+            "label": "shoot system",
+            "description": [
+                "A collective plant organ structure (PO:0025007) that produces shoot-borne portions of meristem tissue (PO:0009013) and the plant structures (PO:0009011) that arise from them.",
+                "The shoot system is generally used to refer to the above-ground plant parts, although some plants have parts of their shoot system underground. For example, a rhizome (PO:0004542), bulb (PO:0025356), a corm (PO:0025355) or a subterranean tuber (PO:0004547), as in Solanum tuberosum (potato) or yam, are all part of the shoot system."
+            ],
+            "synonyms": [
+                "sistema de epiblasto (epiblastema) (Spanish, exact)",
+                "\u30b7\u30e5\u30fc\u30c8\u7cfb\u3001\u82d7\u6761\u7cfb (Japanese, exact)",
+                "tree crown (narrow)",
+                "Poaceae crown (related)",
+                "shoot (related)",
+                "thalli (related, plural)",
+                "thallus (related)"
+            ]
+        },
+        "treatment": [],
+        "id": "GSM3017912"
+    },
+    {
+        "tissue": {
+            "uniq_id": "PO_0009006",
+            "label": "shoot system",
+            "description": [
+                "A collective plant organ structure (PO:0025007) that produces shoot-borne portions of meristem tissue (PO:0009013) and the plant structures (PO:0009011) that arise from them.",
+                "The shoot system is generally used to refer to the above-ground plant parts, although some plants have parts of their shoot system underground. For example, a rhizome (PO:0004542), bulb (PO:0025356), a corm (PO:0025355) or a subterranean tuber (PO:0004547), as in Solanum tuberosum (potato) or yam, are all part of the shoot system."
+            ],
+            "synonyms": [
+                "sistema de epiblasto (epiblastema) (Spanish, exact)",
+                "\u30b7\u30e5\u30fc\u30c8\u7cfb\u3001\u82d7\u6761\u7cfb (Japanese, exact)",
+                "tree crown (narrow)",
+                "Poaceae crown (related)",
+                "shoot (related)",
+                "thalli (related, plural)",
+                "thallus (related)"
+            ]
+        },
+        "treatment": [
+            {
+                "uniq_id": "EO_0007404",
+                "label": "drought environment",
+                "description": [
+                    "an environment in plant experiments to understand how plants respond to episodic drought and watering pulse by depriving the plants of water supply"
+                ],
+                "synonyms": []
+            }
+        ],
+        "id": "GSM3017915"
+    },
+    {
+        "tissue": {
+            "uniq_id": "PO_0009006",
+            "label": "shoot system",
+            "description": [
+                "A collective plant organ structure (PO:0025007) that produces shoot-borne portions of meristem tissue (PO:0009013) and the plant structures (PO:0009011) that arise from them.",
+                "The shoot system is generally used to refer to the above-ground plant parts, although some plants have parts of their shoot system underground. For example, a rhizome (PO:0004542), bulb (PO:0025356), a corm (PO:0025355) or a subterranean tuber (PO:0004547), as in Solanum tuberosum (potato) or yam, are all part of the shoot system."
+            ],
+            "synonyms": [
+                "sistema de epiblasto (epiblastema) (Spanish, exact)",
+                "\u30b7\u30e5\u30fc\u30c8\u7cfb\u3001\u82d7\u6761\u7cfb (Japanese, exact)",
+                "tree crown (narrow)",
+                "Poaceae crown (related)",
+                "shoot (related)",
+                "thalli (related, plural)",
+                "thallus (related)"
+            ]
+        },
+        "treatment": [],
+        "id": "GSM3017908"
+    },
+    {
+        "tissue": {
+            "uniq_id": "PO_0009006",
+            "label": "shoot system",
+            "description": [
+                "A collective plant organ structure (PO:0025007) that produces shoot-borne portions of meristem tissue (PO:0009013) and the plant structures (PO:0009011) that arise from them.",
+                "The shoot system is generally used to refer to the above-ground plant parts, although some plants have parts of their shoot system underground. For example, a rhizome (PO:0004542), bulb (PO:0025356), a corm (PO:0025355) or a subterranean tuber (PO:0004547), as in Solanum tuberosum (potato) or yam, are all part of the shoot system."
+            ],
+            "synonyms": [
+                "sistema de epiblasto (epiblastema) (Spanish, exact)",
+                "\u30b7\u30e5\u30fc\u30c8\u7cfb\u3001\u82d7\u6761\u7cfb (Japanese, exact)",
+                "tree crown (narrow)",
+                "Poaceae crown (related)",
+                "shoot (related)",
+                "thalli (related, plural)",
+                "thallus (related)"
+            ]
+        },
+        "treatment": [],
+        "id": "GSM3017913"
+    },
+    {
+        "tissue": {
+            "uniq_id": "PO_0007131",
+            "label": "seedling development stage",
+            "description": [
+                "A sporophyte vegetative stage (PO:0007134) that succeeds the seed germination stage (PO:0007057) and terminates with the development of the first adult vascular leaf (PO:0006340).",
+                "This terms is used only for seed plants, although non-seed plants may have a comparable phase during which they produce juvenile or transition leaves."
+            ],
+            "synonyms": [
+                "seedling growth in Solanaceae (related)",
+                "seedling in Arabidopsis (related)"
+            ]
+        },
+        "treatment": [
+            {
+                "uniq_id": "EFO_0001461",
+                "label": "control",
+                "description": [
+                    "A control role is borne by a material in a process in which results obtained from an experimental sample and a control sample are compared."
+                ],
+                "synonyms": [
+                    "Controlled",
+                    "Controlling",
+                    "reference sample"
+                ]
+            },
+            {
+                "uniq_id": "EFO_0001066",
+                "label": "test_new_for_recovery",
+                "description": [
+                    "An autoimmune demyelinating disease of the central nervous system that is produced experimentally in animals by the injection of homogenized brain or spinal cord in Freund's adjuvant. Myelin basic protein appears to be the antigen that elicits the hypersensitivity immune response which is characterized by focal areas of lymphocyte and macrophage infiltration into the brain, associated with demyelination and destruction of the blood-brain barrier. Experimental allergic encephalomyelitis (EAE) is used as an animal model for demyelinating diseases of the human central nervous system such as multiple sclerosis.",
+                    "An experimental animal model for central nervous system demyelinating disease. Inoculation with a white matter emulsion combined with FREUND'S ADJUVANT, myelin basic protein, or purified central myelin triggers a T cell-mediated immune response directed towards central myelin. The pathologic features are similar to MULTIPLE SCLEROSIS, including perivascular and periventricular foci of inflammation and demyelination. Subpial demyelination underlying meningeal infiltrations also occurs, which is also a feature of ENCEPHALOMYELITIS, ACUTE DISSEMINATED. Passive immunization with T-cells from an afflicted animal to a normal animal also induces this condition. (From Immunol Res 1998;17(1-2):217-27; Raine CS, Textbook of Neuropathology, 2nd ed, p604-5)"
+                ],
+                "synonyms": [
+                    "ALLERGIC ENCEPH",
+                    "ALLERGIC ENCEPH EXPER",
+                    "AUTOIMMUNE ENCEPH EXPER",
+                    "AUTOIMMUNE EXPER ENCEPH",
+                    "Allergic Encephalomyelitis, Experimental",
+                    "Allergic encephalomyelitis",
+                    "Allergic encephalomyelitis (disorder)",
+                    "Autoimmune Encephalomyelitis, Experimental",
+                    "Autoimmune Experimental Encephalomyelitis",
+                    "EAE",
+                    "ENCEPH ALLERGIC",
+                    "ENCEPH AUTOIMMUNE EXPER",
+                    "ENCEPH EXPER AUTOIMMUNE",
+                    "EXPER ALLERGIC ENCEPH",
+                    "EXPER AUTOIMMUNE ENCEPH",
+                    "Encephalomyelitis, Allergic",
+                    "Encephalomyelitis, Autoimmune Experimental",
+                    "Encephalomyelitis, Autoimmune, Experimental",
+                    "Encephalomyelitis, Experimental Allergic",
+                    "Encephalomyelitis, Experimental Autoimmune",
+                    "Experimental Allergic Encephalomyelitides",
+                    "Experimental Allergic Encephalomyelitis",
+                    "Experimental Encephalomyelitis, Autoimmune",
+                    "Experimental allergic encephalomyelitis (disorder)",
+                    "experimental autoimmune encephalomyelitis"
+                ]
+            }
+        ],
+        "id": "GSM463687"
+    },
+    {
+        "tissue": {
+            "uniq_id": "PO_0007131",
+            "label": "seedling development stage",
+            "description": [
+                "A sporophyte vegetative stage (PO:0007134) that succeeds the seed germination stage (PO:0007057) and terminates with the development of the first adult vascular leaf (PO:0006340).",
+                "This terms is used only for seed plants, although non-seed plants may have a comparable phase during which they produce juvenile or transition leaves."
+            ],
+            "synonyms": [
+                "seedling growth in Solanaceae (related)",
+                "seedling in Arabidopsis (related)"
+            ]
+        },
+        "treatment": [
+            {
+                "uniq_id": "EO_0007173",
+                "label": "warm/hot temperature regimen",
+                "description": [
+                    "The treatment involving an exposure to above optimal temperature, which may depend on the study type or the regional environment."
+                ],
+                "synonyms": []
+            }
+        ],
+        "id": "GSM463685"
+    },
+    {
+        "tissue": {
+            "uniq_id": "PO_0007131",
+            "label": "seedling development stage",
+            "description": [
+                "A sporophyte vegetative stage (PO:0007134) that succeeds the seed germination stage (PO:0007057) and terminates with the development of the first adult vascular leaf (PO:0006340).",
+                "This terms is used only for seed plants, although non-seed plants may have a comparable phase during which they produce juvenile or transition leaves."
+            ],
+            "synonyms": [
+                "seedling growth in Solanaceae (related)",
+                "seedling in Arabidopsis (related)"
+            ]
+        },
+        "treatment": [
+            {
+                "uniq_id": "EO_0007173",
+                "label": "warm/hot temperature regimen",
+                "description": [
+                    "The treatment involving an exposure to above optimal temperature, which may depend on the study type or the regional environment."
+                ],
+                "synonyms": []
+            },
+            {
+                "uniq_id": "EFO_0001066",
+                "label": "test_new_for_recovery",
+                "description": [
+                    "An autoimmune demyelinating disease of the central nervous system that is produced experimentally in animals by the injection of homogenized brain or spinal cord in Freund's adjuvant. Myelin basic protein appears to be the antigen that elicits the hypersensitivity immune response which is characterized by focal areas of lymphocyte and macrophage infiltration into the brain, associated with demyelination and destruction of the blood-brain barrier. Experimental allergic encephalomyelitis (EAE) is used as an animal model for demyelinating diseases of the human central nervous system such as multiple sclerosis.",
+                    "An experimental animal model for central nervous system demyelinating disease. Inoculation with a white matter emulsion combined with FREUND'S ADJUVANT, myelin basic protein, or purified central myelin triggers a T cell-mediated immune response directed towards central myelin. The pathologic features are similar to MULTIPLE SCLEROSIS, including perivascular and periventricular foci of inflammation and demyelination. Subpial demyelination underlying meningeal infiltrations also occurs, which is also a feature of ENCEPHALOMYELITIS, ACUTE DISSEMINATED. Passive immunization with T-cells from an afflicted animal to a normal animal also induces this condition. (From Immunol Res 1998;17(1-2):217-27; Raine CS, Textbook of Neuropathology, 2nd ed, p604-5)"
+                ],
+                "synonyms": [
+                    "ALLERGIC ENCEPH",
+                    "ALLERGIC ENCEPH EXPER",
+                    "AUTOIMMUNE ENCEPH EXPER",
+                    "AUTOIMMUNE EXPER ENCEPH",
+                    "Allergic Encephalomyelitis, Experimental",
+                    "Allergic encephalomyelitis",
+                    "Allergic encephalomyelitis (disorder)",
+                    "Autoimmune Encephalomyelitis, Experimental",
+                    "Autoimmune Experimental Encephalomyelitis",
+                    "EAE",
+                    "ENCEPH ALLERGIC",
+                    "ENCEPH AUTOIMMUNE EXPER",
+                    "ENCEPH EXPER AUTOIMMUNE",
+                    "EXPER ALLERGIC ENCEPH",
+                    "EXPER AUTOIMMUNE ENCEPH",
+                    "Encephalomyelitis, Allergic",
+                    "Encephalomyelitis, Autoimmune Experimental",
+                    "Encephalomyelitis, Autoimmune, Experimental",
+                    "Encephalomyelitis, Experimental Allergic",
+                    "Encephalomyelitis, Experimental Autoimmune",
+                    "Experimental Allergic Encephalomyelitides",
+                    "Experimental Allergic Encephalomyelitis",
+                    "Experimental Encephalomyelitis, Autoimmune",
+                    "Experimental allergic encephalomyelitis (disorder)",
+                    "experimental autoimmune encephalomyelitis"
+                ]
+            }
+        ],
+        "id": "GSM463690"
+    },
+    {
+        "tissue": {
+            "uniq_id": "PO_0007131",
+            "label": "seedling development stage",
+            "description": [
+                "A sporophyte vegetative stage (PO:0007134) that succeeds the seed germination stage (PO:0007057) and terminates with the development of the first adult vascular leaf (PO:0006340).",
+                "This terms is used only for seed plants, although non-seed plants may have a comparable phase during which they produce juvenile or transition leaves."
+            ],
+            "synonyms": [
+                "seedling growth in Solanaceae (related)",
+                "seedling in Arabidopsis (related)"
+            ]
+        },
+        "treatment": [
+            {
+                "uniq_id": "EFO_0001461",
+                "label": "control",
+                "description": [
+                    "A control role is borne by a material in a process in which results obtained from an experimental sample and a control sample are compared."
+                ],
+                "synonyms": [
+                    "Controlled",
+                    "Controlling",
+                    "reference sample"
+                ]
+            }
+        ],
+        "id": "GSM463684"
+    },
+    {
+        "tissue": {
+            "uniq_id": "PO_0007131",
+            "label": "seedling development stage",
+            "description": [
+                "A sporophyte vegetative stage (PO:0007134) that succeeds the seed germination stage (PO:0007057) and terminates with the development of the first adult vascular leaf (PO:0006340).",
+                "This terms is used only for seed plants, although non-seed plants may have a comparable phase during which they produce juvenile or transition leaves."
+            ],
+            "synonyms": [
+                "seedling growth in Solanaceae (related)",
+                "seedling in Arabidopsis (related)"
+            ]
+        },
+        "treatment": [
+            {
+                "uniq_id": "EO_0007173",
+                "label": "warm/hot temperature regimen",
+                "description": [
+                    "The treatment involving an exposure to above optimal temperature, which may depend on the study type or the regional environment."
+                ],
+                "synonyms": []
+            },
+            {
+                "uniq_id": "EFO_0001066",
+                "label": "test_new_for_recovery",
+                "description": [
+                    "An autoimmune demyelinating disease of the central nervous system that is produced experimentally in animals by the injection of homogenized brain or spinal cord in Freund's adjuvant. Myelin basic protein appears to be the antigen that elicits the hypersensitivity immune response which is characterized by focal areas of lymphocyte and macrophage infiltration into the brain, associated with demyelination and destruction of the blood-brain barrier. Experimental allergic encephalomyelitis (EAE) is used as an animal model for demyelinating diseases of the human central nervous system such as multiple sclerosis.",
+                    "An experimental animal model for central nervous system demyelinating disease. Inoculation with a white matter emulsion combined with FREUND'S ADJUVANT, myelin basic protein, or purified central myelin triggers a T cell-mediated immune response directed towards central myelin. The pathologic features are similar to MULTIPLE SCLEROSIS, including perivascular and periventricular foci of inflammation and demyelination. Subpial demyelination underlying meningeal infiltrations also occurs, which is also a feature of ENCEPHALOMYELITIS, ACUTE DISSEMINATED. Passive immunization with T-cells from an afflicted animal to a normal animal also induces this condition. (From Immunol Res 1998;17(1-2):217-27; Raine CS, Textbook of Neuropathology, 2nd ed, p604-5)"
+                ],
+                "synonyms": [
+                    "ALLERGIC ENCEPH",
+                    "ALLERGIC ENCEPH EXPER",
+                    "AUTOIMMUNE ENCEPH EXPER",
+                    "AUTOIMMUNE EXPER ENCEPH",
+                    "Allergic Encephalomyelitis, Experimental",
+                    "Allergic encephalomyelitis",
+                    "Allergic encephalomyelitis (disorder)",
+                    "Autoimmune Encephalomyelitis, Experimental",
+                    "Autoimmune Experimental Encephalomyelitis",
+                    "EAE",
+                    "ENCEPH ALLERGIC",
+                    "ENCEPH AUTOIMMUNE EXPER",
+                    "ENCEPH EXPER AUTOIMMUNE",
+                    "EXPER ALLERGIC ENCEPH",
+                    "EXPER AUTOIMMUNE ENCEPH",
+                    "Encephalomyelitis, Allergic",
+                    "Encephalomyelitis, Autoimmune Experimental",
+                    "Encephalomyelitis, Autoimmune, Experimental",
+                    "Encephalomyelitis, Experimental Allergic",
+                    "Encephalomyelitis, Experimental Autoimmune",
+                    "Experimental Allergic Encephalomyelitides",
+                    "Experimental Allergic Encephalomyelitis",
+                    "Experimental Encephalomyelitis, Autoimmune",
+                    "Experimental allergic encephalomyelitis (disorder)",
+                    "experimental autoimmune encephalomyelitis"
+                ]
+            }
+        ],
+        "id": "GSM463689"
+    },
+    {
+        "tissue": {
+            "uniq_id": "PO_0007131",
+            "label": "seedling development stage",
+            "description": [
+                "A sporophyte vegetative stage (PO:0007134) that succeeds the seed germination stage (PO:0007057) and terminates with the development of the first adult vascular leaf (PO:0006340).",
+                "This terms is used only for seed plants, although non-seed plants may have a comparable phase during which they produce juvenile or transition leaves."
+            ],
+            "synonyms": [
+                "seedling growth in Solanaceae (related)",
+                "seedling in Arabidopsis (related)"
+            ]
+        },
+        "treatment": [
+            {
+                "uniq_id": "EO_0007173",
+                "label": "warm/hot temperature regimen",
+                "description": [
+                    "The treatment involving an exposure to above optimal temperature, which may depend on the study type or the regional environment."
+                ],
+                "synonyms": []
+            }
+        ],
+        "id": "GSM463686"
+    },
+    {
+        "tissue": {
+            "uniq_id": "PO_0007131",
+            "label": "seedling development stage",
+            "description": [
+                "A sporophyte vegetative stage (PO:0007134) that succeeds the seed germination stage (PO:0007057) and terminates with the development of the first adult vascular leaf (PO:0006340).",
+                "This terms is used only for seed plants, although non-seed plants may have a comparable phase during which they produce juvenile or transition leaves."
+            ],
+            "synonyms": [
+                "seedling growth in Solanaceae (related)",
+                "seedling in Arabidopsis (related)"
+            ]
+        },
+        "treatment": [
+            {
+                "uniq_id": "EFO_0001461",
+                "label": "control",
+                "description": [
+                    "A control role is borne by a material in a process in which results obtained from an experimental sample and a control sample are compared."
+                ],
+                "synonyms": [
+                    "Controlled",
+                    "Controlling",
+                    "reference sample"
+                ]
+            },
+            {
+                "uniq_id": "EFO_0001066",
+                "label": "test_new_for_recovery",
+                "description": [
+                    "An autoimmune demyelinating disease of the central nervous system that is produced experimentally in animals by the injection of homogenized brain or spinal cord in Freund's adjuvant. Myelin basic protein appears to be the antigen that elicits the hypersensitivity immune response which is characterized by focal areas of lymphocyte and macrophage infiltration into the brain, associated with demyelination and destruction of the blood-brain barrier. Experimental allergic encephalomyelitis (EAE) is used as an animal model for demyelinating diseases of the human central nervous system such as multiple sclerosis.",
+                    "An experimental animal model for central nervous system demyelinating disease. Inoculation with a white matter emulsion combined with FREUND'S ADJUVANT, myelin basic protein, or purified central myelin triggers a T cell-mediated immune response directed towards central myelin. The pathologic features are similar to MULTIPLE SCLEROSIS, including perivascular and periventricular foci of inflammation and demyelination. Subpial demyelination underlying meningeal infiltrations also occurs, which is also a feature of ENCEPHALOMYELITIS, ACUTE DISSEMINATED. Passive immunization with T-cells from an afflicted animal to a normal animal also induces this condition. (From Immunol Res 1998;17(1-2):217-27; Raine CS, Textbook of Neuropathology, 2nd ed, p604-5)"
+                ],
+                "synonyms": [
+                    "ALLERGIC ENCEPH",
+                    "ALLERGIC ENCEPH EXPER",
+                    "AUTOIMMUNE ENCEPH EXPER",
+                    "AUTOIMMUNE EXPER ENCEPH",
+                    "Allergic Encephalomyelitis, Experimental",
+                    "Allergic encephalomyelitis",
+                    "Allergic encephalomyelitis (disorder)",
+                    "Autoimmune Encephalomyelitis, Experimental",
+                    "Autoimmune Experimental Encephalomyelitis",
+                    "EAE",
+                    "ENCEPH ALLERGIC",
+                    "ENCEPH AUTOIMMUNE EXPER",
+                    "ENCEPH EXPER AUTOIMMUNE",
+                    "EXPER ALLERGIC ENCEPH",
+                    "EXPER AUTOIMMUNE ENCEPH",
+                    "Encephalomyelitis, Allergic",
+                    "Encephalomyelitis, Autoimmune Experimental",
+                    "Encephalomyelitis, Autoimmune, Experimental",
+                    "Encephalomyelitis, Experimental Allergic",
+                    "Encephalomyelitis, Experimental Autoimmune",
+                    "Experimental Allergic Encephalomyelitides",
+                    "Experimental Allergic Encephalomyelitis",
+                    "Experimental Encephalomyelitis, Autoimmune",
+                    "Experimental allergic encephalomyelitis (disorder)",
+                    "experimental autoimmune encephalomyelitis"
+                ]
+            }
+        ],
+        "id": "GSM463688"
+    },
+    {
+        "tissue": {
+            "uniq_id": "PO_0007131",
+            "label": "seedling development stage",
+            "description": [
+                "A sporophyte vegetative stage (PO:0007134) that succeeds the seed germination stage (PO:0007057) and terminates with the development of the first adult vascular leaf (PO:0006340).",
+                "This terms is used only for seed plants, although non-seed plants may have a comparable phase during which they produce juvenile or transition leaves."
+            ],
+            "synonyms": [
+                "seedling growth in Solanaceae (related)",
+                "seedling in Arabidopsis (related)"
+            ]
+        },
+        "treatment": [
+            {
+                "uniq_id": "EFO_0001461",
+                "label": "control",
+                "description": [
+                    "A control role is borne by a material in a process in which results obtained from an experimental sample and a control sample are compared."
+                ],
+                "synonyms": [
+                    "Controlled",
+                    "Controlling",
+                    "reference sample"
+                ]
+            }
+        ],
+        "id": "GSM463683"
+    },
+    {
+        "tissue": {
+            "uniq_id": "PO_0025034",
+            "label": "leaf",
+            "description": [
+                "A phyllome (PO:0006001) that is not associated with a reproductive structure."
+            ],
+            "synonyms": [
+                "hoja (Spanish, exact)",
+                "\u8449 (Japanese, exact)"
+            ]
+        },
+        "treatment": [
+            {
+                "uniq_id": "EO_0007404",
+                "label": "drought environment",
+                "description": [
+                    "an environment in plant experiments to understand how plants respond to episodic drought and watering pulse by depriving the plants of water supply"
+                ],
+                "synonyms": []
+            }
+        ],
+        "id": "GSM1586311"
+    },
+    {
+        "tissue": {
+            "uniq_id": "PO_0025034",
+            "label": "leaf",
+            "description": [
+                "A phyllome (PO:0006001) that is not associated with a reproductive structure."
+            ],
+            "synonyms": [
+                "hoja (Spanish, exact)",
+                "\u8449 (Japanese, exact)"
+            ]
+        },
+        "treatment": [
+            {
+                "uniq_id": "EO_0007404",
+                "label": "drought environment",
+                "description": [
+                    "an environment in plant experiments to understand how plants respond to episodic drought and watering pulse by depriving the plants of water supply"
+                ],
+                "synonyms": []
+            }
+        ],
+        "id": "GSM1586341"
+    },
+    {
+        "tissue": {
+            "uniq_id": "PO_0025034",
+            "label": "leaf",
+            "description": [
+                "A phyllome (PO:0006001) that is not associated with a reproductive structure."
+            ],
+            "synonyms": [
+                "hoja (Spanish, exact)",
+                "\u8449 (Japanese, exact)"
+            ]
+        },
+        "treatment": [
+            {
+                "uniq_id": "EFO_0001461",
+                "label": "control",
+                "description": [
+                    "A control role is borne by a material in a process in which results obtained from an experimental sample and a control sample are compared."
+                ],
+                "synonyms": [
+                    "Controlled",
+                    "Controlling",
+                    "reference sample"
+                ]
+            }
+        ],
+        "id": "GSM1586256"
+    },
+    {
+        "tissue": {
+            "uniq_id": "PO_0025034",
+            "label": "leaf",
+            "description": [
+                "A phyllome (PO:0006001) that is not associated with a reproductive structure."
+            ],
+            "synonyms": [
+                "hoja (Spanish, exact)",
+                "\u8449 (Japanese, exact)"
+            ]
+        },
+        "treatment": [
+            {
+                "uniq_id": "EFO_0001461",
+                "label": "control",
+                "description": [
+                    "A control role is borne by a material in a process in which results obtained from an experimental sample and a control sample are compared."
+                ],
+                "synonyms": [
+                    "Controlled",
+                    "Controlling",
+                    "reference sample"
+                ]
+            }
+        ],
+        "id": "GSM1586260"
+    },
+    {
+        "tissue": {
+            "uniq_id": "PO_0025034",
+            "label": "leaf",
+            "description": [
+                "A phyllome (PO:0006001) that is not associated with a reproductive structure."
+            ],
+            "synonyms": [
+                "hoja (Spanish, exact)",
+                "\u8449 (Japanese, exact)"
+            ]
+        },
+        "treatment": [
+            {
+                "uniq_id": "EFO_0001461",
+                "label": "control",
+                "description": [
+                    "A control role is borne by a material in a process in which results obtained from an experimental sample and a control sample are compared."
+                ],
+                "synonyms": [
+                    "Controlled",
+                    "Controlling",
+                    "reference sample"
+                ]
+            }
+        ],
+        "id": "GSM1586295"
+    },
+    {
+        "tissue": {
+            "uniq_id": "PO_0025034",
+            "label": "leaf",
+            "description": [
+                "A phyllome (PO:0006001) that is not associated with a reproductive structure."
+            ],
+            "synonyms": [
+                "hoja (Spanish, exact)",
+                "\u8449 (Japanese, exact)"
+            ]
+        },
+        "treatment": [
+            {
+                "uniq_id": "EO_0007404",
+                "label": "drought environment",
+                "description": [
+                    "an environment in plant experiments to understand how plants respond to episodic drought and watering pulse by depriving the plants of water supply"
+                ],
+                "synonyms": []
+            }
+        ],
+        "id": "GSM1586335"
+    },
+    {
+        "tissue": {
+            "uniq_id": "PO_0025034",
+            "label": "leaf",
+            "description": [
+                "A phyllome (PO:0006001) that is not associated with a reproductive structure."
+            ],
+            "synonyms": [
+                "hoja (Spanish, exact)",
+                "\u8449 (Japanese, exact)"
+            ]
+        },
+        "treatment": [
+            {
+                "uniq_id": "EO_0007404",
+                "label": "drought environment",
+                "description": [
+                    "an environment in plant experiments to understand how plants respond to episodic drought and watering pulse by depriving the plants of water supply"
+                ],
+                "synonyms": []
+            }
+        ],
+        "id": "GSM1586349"
+    },
+    {
+        "tissue": {
+            "uniq_id": "PO_0025034",
+            "label": "leaf",
+            "description": [
+                "A phyllome (PO:0006001) that is not associated with a reproductive structure."
+            ],
+            "synonyms": [
+                "hoja (Spanish, exact)",
+                "\u8449 (Japanese, exact)"
+            ]
+        },
+        "treatment": [
+            {
+                "uniq_id": "EO_0007404",
+                "label": "drought environment",
+                "description": [
+                    "an environment in plant experiments to understand how plants respond to episodic drought and watering pulse by depriving the plants of water supply"
+                ],
+                "synonyms": []
+            }
+        ],
+        "id": "GSM1586317"
+    },
+    {
+        "tissue": {
+            "uniq_id": "PO_0025034",
+            "label": "leaf",
+            "description": [
+                "A phyllome (PO:0006001) that is not associated with a reproductive structure."
+            ],
+            "synonyms": [
+                "hoja (Spanish, exact)",
+                "\u8449 (Japanese, exact)"
+            ]
+        },
+        "treatment": [
+            {
+                "uniq_id": "EFO_0001461",
+                "label": "control",
+                "description": [
+                    "A control role is borne by a material in a process in which results obtained from an experimental sample and a control sample are compared."
+                ],
+                "synonyms": [
+                    "Controlled",
+                    "Controlling",
+                    "reference sample"
+                ]
+            }
+        ],
+        "id": "GSM1586310"
+    },
+    {
+        "tissue": {
+            "uniq_id": "PO_0025034",
+            "label": "leaf",
+            "description": [
+                "A phyllome (PO:0006001) that is not associated with a reproductive structure."
+            ],
+            "synonyms": [
+                "hoja (Spanish, exact)",
+                "\u8449 (Japanese, exact)"
+            ]
+        },
+        "treatment": [
+            {
+                "uniq_id": "EO_0007404",
+                "label": "drought environment",
+                "description": [
+                    "an environment in plant experiments to understand how plants respond to episodic drought and watering pulse by depriving the plants of water supply"
+                ],
+                "synonyms": []
+            }
+        ],
+        "id": "GSM1586358"
+    },
+    {
+        "tissue": {
+            "uniq_id": "PO_0025034",
+            "label": "leaf",
+            "description": [
+                "A phyllome (PO:0006001) that is not associated with a reproductive structure."
+            ],
+            "synonyms": [
+                "hoja (Spanish, exact)",
+                "\u8449 (Japanese, exact)"
+            ]
+        },
+        "treatment": [
+            {
+                "uniq_id": "EFO_0001461",
+                "label": "control",
+                "description": [
+                    "A control role is borne by a material in a process in which results obtained from an experimental sample and a control sample are compared."
+                ],
+                "synonyms": [
+                    "Controlled",
+                    "Controlling",
+                    "reference sample"
+                ]
+            }
+        ],
+        "id": "GSM1586276"
+    },
+    {
+        "tissue": {
+            "uniq_id": "PO_0025034",
+            "label": "leaf",
+            "description": [
+                "A phyllome (PO:0006001) that is not associated with a reproductive structure."
+            ],
+            "synonyms": [
+                "hoja (Spanish, exact)",
+                "\u8449 (Japanese, exact)"
+            ]
+        },
+        "treatment": [
+            {
+                "uniq_id": "EO_0007404",
+                "label": "drought environment",
+                "description": [
+                    "an environment in plant experiments to understand how plants respond to episodic drought and watering pulse by depriving the plants of water supply"
+                ],
+                "synonyms": []
+            }
+        ],
+        "id": "GSM1586328"
+    },
+    {
+        "tissue": {
+            "uniq_id": "PO_0025034",
+            "label": "leaf",
+            "description": [
+                "A phyllome (PO:0006001) that is not associated with a reproductive structure."
+            ],
+            "synonyms": [
+                "hoja (Spanish, exact)",
+                "\u8449 (Japanese, exact)"
+            ]
+        },
+        "treatment": [
+            {
+                "uniq_id": "EFO_0001461",
+                "label": "control",
+                "description": [
+                    "A control role is borne by a material in a process in which results obtained from an experimental sample and a control sample are compared."
+                ],
+                "synonyms": [
+                    "Controlled",
+                    "Controlling",
+                    "reference sample"
+                ]
+            }
+        ],
+        "id": "GSM1586275"
+    },
+    {
+        "tissue": {
+            "uniq_id": "PO_0025034",
+            "label": "leaf",
+            "description": [
+                "A phyllome (PO:0006001) that is not associated with a reproductive structure."
+            ],
+            "synonyms": [
+                "hoja (Spanish, exact)",
+                "\u8449 (Japanese, exact)"
+            ]
+        },
+        "treatment": [
+            {
+                "uniq_id": "EO_0007404",
+                "label": "drought environment",
+                "description": [
+                    "an environment in plant experiments to understand how plants respond to episodic drought and watering pulse by depriving the plants of water supply"
+                ],
+                "synonyms": []
+            }
+        ],
+        "id": "GSM1586321"
+    },
+    {
+        "tissue": {
+            "uniq_id": "PO_0025034",
+            "label": "leaf",
+            "description": [
+                "A phyllome (PO:0006001) that is not associated with a reproductive structure."
+            ],
+            "synonyms": [
+                "hoja (Spanish, exact)",
+                "\u8449 (Japanese, exact)"
+            ]
+        },
+        "treatment": [
+            {
+                "uniq_id": "EO_0007404",
+                "label": "drought environment",
+                "description": [
+                    "an environment in plant experiments to understand how plants respond to episodic drought and watering pulse by depriving the plants of water supply"
+                ],
+                "synonyms": []
+            }
+        ],
+        "id": "GSM1586331"
+    },
+    {
+        "tissue": {
+            "uniq_id": "PO_0025034",
+            "label": "leaf",
+            "description": [
+                "A phyllome (PO:0006001) that is not associated with a reproductive structure."
+            ],
+            "synonyms": [
+                "hoja (Spanish, exact)",
+                "\u8449 (Japanese, exact)"
+            ]
+        },
+        "treatment": [
+            {
+                "uniq_id": "EFO_0001461",
+                "label": "control",
+                "description": [
+                    "A control role is borne by a material in a process in which results obtained from an experimental sample and a control sample are compared."
+                ],
+                "synonyms": [
+                    "Controlled",
+                    "Controlling",
+                    "reference sample"
+                ]
+            }
+        ],
+        "id": "GSM1586306"
+    },
+    {
+        "tissue": {
+            "uniq_id": "PO_0025034",
+            "label": "leaf",
+            "description": [
+                "A phyllome (PO:0006001) that is not associated with a reproductive structure."
+            ],
+            "synonyms": [
+                "hoja (Spanish, exact)",
+                "\u8449 (Japanese, exact)"
+            ]
+        },
+        "treatment": [
+            {
+                "uniq_id": "EO_0007404",
+                "label": "drought environment",
+                "description": [
+                    "an environment in plant experiments to understand how plants respond to episodic drought and watering pulse by depriving the plants of water supply"
+                ],
+                "synonyms": []
+            }
+        ],
+        "id": "GSM1586336"
+    },
+    {
+        "tissue": {
+            "uniq_id": "PO_0025034",
+            "label": "leaf",
+            "description": [
+                "A phyllome (PO:0006001) that is not associated with a reproductive structure."
+            ],
+            "synonyms": [
+                "hoja (Spanish, exact)",
+                "\u8449 (Japanese, exact)"
+            ]
+        },
+        "treatment": [
+            {
+                "uniq_id": "EFO_0001461",
+                "label": "control",
+                "description": [
+                    "A control role is borne by a material in a process in which results obtained from an experimental sample and a control sample are compared."
+                ],
+                "synonyms": [
+                    "Controlled",
+                    "Controlling",
+                    "reference sample"
+                ]
+            }
+        ],
+        "id": "GSM1586259"
+    },
+    {
+        "tissue": {
+            "uniq_id": "PO_0025034",
+            "label": "leaf",
+            "description": [
+                "A phyllome (PO:0006001) that is not associated with a reproductive structure."
+            ],
+            "synonyms": [
+                "hoja (Spanish, exact)",
+                "\u8449 (Japanese, exact)"
+            ]
+        },
+        "treatment": [
+            {
+                "uniq_id": "EFO_0001461",
+                "label": "control",
+                "description": [
+                    "A control role is borne by a material in a process in which results obtained from an experimental sample and a control sample are compared."
+                ],
+                "synonyms": [
+                    "Controlled",
+                    "Controlling",
+                    "reference sample"
+                ]
+            }
+        ],
+        "id": "GSM1586308"
+    },
+    {
+        "tissue": {
+            "uniq_id": "PO_0025034",
+            "label": "leaf",
+            "description": [
+                "A phyllome (PO:0006001) that is not associated with a reproductive structure."
+            ],
+            "synonyms": [
+                "hoja (Spanish, exact)",
+                "\u8449 (Japanese, exact)"
+            ]
+        },
+        "treatment": [
+            {
+                "uniq_id": "EFO_0001461",
+                "label": "control",
+                "description": [
+                    "A control role is borne by a material in a process in which results obtained from an experimental sample and a control sample are compared."
+                ],
+                "synonyms": [
+                    "Controlled",
+                    "Controlling",
+                    "reference sample"
+                ]
+            }
+        ],
+        "id": "GSM1586271"
+    },
+    {
+        "tissue": {
+            "uniq_id": "PO_0025034",
+            "label": "leaf",
+            "description": [
+                "A phyllome (PO:0006001) that is not associated with a reproductive structure."
+            ],
+            "synonyms": [
+                "hoja (Spanish, exact)",
+                "\u8449 (Japanese, exact)"
+            ]
+        },
+        "treatment": [
+            {
+                "uniq_id": "EO_0007404",
+                "label": "drought environment",
+                "description": [
+                    "an environment in plant experiments to understand how plants respond to episodic drought and watering pulse by depriving the plants of water supply"
+                ],
+                "synonyms": []
+            }
+        ],
+        "id": "GSM1586319"
+    },
+    {
+        "tissue": {
+            "uniq_id": "PO_0025034",
+            "label": "leaf",
+            "description": [
+                "A phyllome (PO:0006001) that is not associated with a reproductive structure."
+            ],
+            "synonyms": [
+                "hoja (Spanish, exact)",
+                "\u8449 (Japanese, exact)"
+            ]
+        },
+        "treatment": [
+            {
+                "uniq_id": "EFO_0001461",
+                "label": "control",
+                "description": [
+                    "A control role is borne by a material in a process in which results obtained from an experimental sample and a control sample are compared."
+                ],
+                "synonyms": [
+                    "Controlled",
+                    "Controlling",
+                    "reference sample"
+                ]
+            }
+        ],
+        "id": "GSM1586303"
+    },
+    {
+        "tissue": {
+            "uniq_id": "PO_0025034",
+            "label": "leaf",
+            "description": [
+                "A phyllome (PO:0006001) that is not associated with a reproductive structure."
+            ],
+            "synonyms": [
+                "hoja (Spanish, exact)",
+                "\u8449 (Japanese, exact)"
+            ]
+        },
+        "treatment": [
+            {
+                "uniq_id": "EO_0007404",
+                "label": "drought environment",
+                "description": [
+                    "an environment in plant experiments to understand how plants respond to episodic drought and watering pulse by depriving the plants of water supply"
+                ],
+                "synonyms": []
+            }
+        ],
+        "id": "GSM1586356"
+    },
+    {
+        "tissue": {
+            "uniq_id": "PO_0025034",
+            "label": "leaf",
+            "description": [
+                "A phyllome (PO:0006001) that is not associated with a reproductive structure."
+            ],
+            "synonyms": [
+                "hoja (Spanish, exact)",
+                "\u8449 (Japanese, exact)"
+            ]
+        },
+        "treatment": [
+            {
+                "uniq_id": "EFO_0001461",
+                "label": "control",
+                "description": [
+                    "A control role is borne by a material in a process in which results obtained from an experimental sample and a control sample are compared."
+                ],
+                "synonyms": [
+                    "Controlled",
+                    "Controlling",
+                    "reference sample"
+                ]
+            }
+        ],
+        "id": "GSM1586309"
+    },
+    {
+        "tissue": {
+            "uniq_id": "PO_0025034",
+            "label": "leaf",
+            "description": [
+                "A phyllome (PO:0006001) that is not associated with a reproductive structure."
+            ],
+            "synonyms": [
+                "hoja (Spanish, exact)",
+                "\u8449 (Japanese, exact)"
+            ]
+        },
+        "treatment": [
+            {
+                "uniq_id": "EO_0007404",
+                "label": "drought environment",
+                "description": [
+                    "an environment in plant experiments to understand how plants respond to episodic drought and watering pulse by depriving the plants of water supply"
+                ],
+                "synonyms": []
+            }
+        ],
+        "id": "GSM1586332"
+    },
+    {
+        "tissue": {
+            "uniq_id": "PO_0025034",
+            "label": "leaf",
+            "description": [
+                "A phyllome (PO:0006001) that is not associated with a reproductive structure."
+            ],
+            "synonyms": [
+                "hoja (Spanish, exact)",
+                "\u8449 (Japanese, exact)"
+            ]
+        },
+        "treatment": [
+            {
+                "uniq_id": "EO_0007404",
+                "label": "drought environment",
+                "description": [
+                    "an environment in plant experiments to understand how plants respond to episodic drought and watering pulse by depriving the plants of water supply"
+                ],
+                "synonyms": []
+            }
+        ],
+        "id": "GSM1586313"
+    },
+    {
+        "tissue": {
+            "uniq_id": "PO_0025034",
+            "label": "leaf",
+            "description": [
+                "A phyllome (PO:0006001) that is not associated with a reproductive structure."
+            ],
+            "synonyms": [
+                "hoja (Spanish, exact)",
+                "\u8449 (Japanese, exact)"
+            ]
+        },
+        "treatment": [
+            {
+                "uniq_id": "EO_0007404",
+                "label": "drought environment",
+                "description": [
+                    "an environment in plant experiments to understand how plants respond to episodic drought and watering pulse by depriving the plants of water supply"
+                ],
+                "synonyms": []
+            }
+        ],
+        "id": "GSM1586325"
+    },
+    {
+        "tissue": {
+            "uniq_id": "PO_0025034",
+            "label": "leaf",
+            "description": [
+                "A phyllome (PO:0006001) that is not associated with a reproductive structure."
+            ],
+            "synonyms": [
+                "hoja (Spanish, exact)",
+                "\u8449 (Japanese, exact)"
+            ]
+        },
+        "treatment": [
+            {
+                "uniq_id": "EO_0007404",
+                "label": "drought environment",
+                "description": [
+                    "an environment in plant experiments to understand how plants respond to episodic drought and watering pulse by depriving the plants of water supply"
+                ],
+                "synonyms": []
+            }
+        ],
+        "id": "GSM1586347"
+    },
+    {
+        "tissue": {
+            "uniq_id": "PO_0025034",
+            "label": "leaf",
+            "description": [
+                "A phyllome (PO:0006001) that is not associated with a reproductive structure."
+            ],
+            "synonyms": [
+                "hoja (Spanish, exact)",
+                "\u8449 (Japanese, exact)"
+            ]
+        },
+        "treatment": [
+            {
+                "uniq_id": "EFO_0001461",
+                "label": "control",
+                "description": [
+                    "A control role is borne by a material in a process in which results obtained from an experimental sample and a control sample are compared."
+                ],
+                "synonyms": [
+                    "Controlled",
+                    "Controlling",
+                    "reference sample"
+                ]
+            }
+        ],
+        "id": "GSM1586301"
+    },
+    {
+        "tissue": {
+            "uniq_id": "PO_0025034",
+            "label": "leaf",
+            "description": [
+                "A phyllome (PO:0006001) that is not associated with a reproductive structure."
+            ],
+            "synonyms": [
+                "hoja (Spanish, exact)",
+                "\u8449 (Japanese, exact)"
+            ]
+        },
+        "treatment": [
+            {
+                "uniq_id": "EO_0007404",
+                "label": "drought environment",
+                "description": [
+                    "an environment in plant experiments to understand how plants respond to episodic drought and watering pulse by depriving the plants of water supply"
+                ],
+                "synonyms": []
+            }
+        ],
+        "id": "GSM1586330"
+    },
+    {
+        "tissue": {
+            "uniq_id": "PO_0025034",
+            "label": "leaf",
+            "description": [
+                "A phyllome (PO:0006001) that is not associated with a reproductive structure."
+            ],
+            "synonyms": [
+                "hoja (Spanish, exact)",
+                "\u8449 (Japanese, exact)"
+            ]
+        },
+        "treatment": [
+            {
+                "uniq_id": "EO_0007404",
+                "label": "drought environment",
+                "description": [
+                    "an environment in plant experiments to understand how plants respond to episodic drought and watering pulse by depriving the plants of water supply"
+                ],
+                "synonyms": []
+            }
+        ],
+        "id": "GSM1586315"
+    },
+    {
+        "tissue": {
+            "uniq_id": "PO_0025034",
+            "label": "leaf",
+            "description": [
+                "A phyllome (PO:0006001) that is not associated with a reproductive structure."
+            ],
+            "synonyms": [
+                "hoja (Spanish, exact)",
+                "\u8449 (Japanese, exact)"
+            ]
+        },
+        "treatment": [
+            {
+                "uniq_id": "EFO_0001461",
+                "label": "control",
+                "description": [
+                    "A control role is borne by a material in a process in which results obtained from an experimental sample and a control sample are compared."
+                ],
+                "synonyms": [
+                    "Controlled",
+                    "Controlling",
+                    "reference sample"
+                ]
+            }
+        ],
+        "id": "GSM1586258"
+    },
+    {
+        "tissue": {
+            "uniq_id": "PO_0025034",
+            "label": "leaf",
+            "description": [
+                "A phyllome (PO:0006001) that is not associated with a reproductive structure."
+            ],
+            "synonyms": [
+                "hoja (Spanish, exact)",
+                "\u8449 (Japanese, exact)"
+            ]
+        },
+        "treatment": [
+            {
+                "uniq_id": "EO_0007404",
+                "label": "drought environment",
+                "description": [
+                    "an environment in plant experiments to understand how plants respond to episodic drought and watering pulse by depriving the plants of water supply"
+                ],
+                "synonyms": []
+            }
+        ],
+        "id": "GSM1586346"
+    },
+    {
+        "tissue": {
+            "uniq_id": "PO_0025034",
+            "label": "leaf",
+            "description": [
+                "A phyllome (PO:0006001) that is not associated with a reproductive structure."
+            ],
+            "synonyms": [
+                "hoja (Spanish, exact)",
+                "\u8449 (Japanese, exact)"
+            ]
+        },
+        "treatment": [
+            {
+                "uniq_id": "EFO_0001461",
+                "label": "control",
+                "description": [
+                    "A control role is borne by a material in a process in which results obtained from an experimental sample and a control sample are compared."
+                ],
+                "synonyms": [
+                    "Controlled",
+                    "Controlling",
+                    "reference sample"
+                ]
+            }
+        ],
+        "id": "GSM1586293"
+    },
+    {
+        "tissue": {
+            "uniq_id": "PO_0025034",
+            "label": "leaf",
+            "description": [
+                "A phyllome (PO:0006001) that is not associated with a reproductive structure."
+            ],
+            "synonyms": [
+                "hoja (Spanish, exact)",
+                "\u8449 (Japanese, exact)"
+            ]
+        },
+        "treatment": [
+            {
+                "uniq_id": "EFO_0001461",
+                "label": "control",
+                "description": [
+                    "A control role is borne by a material in a process in which results obtained from an experimental sample and a control sample are compared."
+                ],
+                "synonyms": [
+                    "Controlled",
+                    "Controlling",
+                    "reference sample"
+                ]
+            }
+        ],
+        "id": "GSM1586288"
+    },
+    {
+        "tissue": {
+            "uniq_id": "PO_0025034",
+            "label": "leaf",
+            "description": [
+                "A phyllome (PO:0006001) that is not associated with a reproductive structure."
+            ],
+            "synonyms": [
+                "hoja (Spanish, exact)",
+                "\u8449 (Japanese, exact)"
+            ]
+        },
+        "treatment": [
+            {
+                "uniq_id": "EFO_0001461",
+                "label": "control",
+                "description": [
+                    "A control role is borne by a material in a process in which results obtained from an experimental sample and a control sample are compared."
+                ],
+                "synonyms": [
+                    "Controlled",
+                    "Controlling",
+                    "reference sample"
+                ]
+            }
+        ],
+        "id": "GSM1586280"
+    },
+    {
+        "tissue": {
+            "uniq_id": "PO_0025034",
+            "label": "leaf",
+            "description": [
+                "A phyllome (PO:0006001) that is not associated with a reproductive structure."
+            ],
+            "synonyms": [
+                "hoja (Spanish, exact)",
+                "\u8449 (Japanese, exact)"
+            ]
+        },
+        "treatment": [
+            {
+                "uniq_id": "EFO_0001461",
+                "label": "control",
+                "description": [
+                    "A control role is borne by a material in a process in which results obtained from an experimental sample and a control sample are compared."
+                ],
+                "synonyms": [
+                    "Controlled",
+                    "Controlling",
+                    "reference sample"
+                ]
+            }
+        ],
+        "id": "GSM1586294"
+    },
+    {
+        "tissue": {
+            "uniq_id": "PO_0025034",
+            "label": "leaf",
+            "description": [
+                "A phyllome (PO:0006001) that is not associated with a reproductive structure."
+            ],
+            "synonyms": [
+                "hoja (Spanish, exact)",
+                "\u8449 (Japanese, exact)"
+            ]
+        },
+        "treatment": [
+            {
+                "uniq_id": "EFO_0001461",
+                "label": "control",
+                "description": [
+                    "A control role is borne by a material in a process in which results obtained from an experimental sample and a control sample are compared."
+                ],
+                "synonyms": [
+                    "Controlled",
+                    "Controlling",
+                    "reference sample"
+                ]
+            }
+        ],
+        "id": "GSM1586263"
+    },
+    {
+        "tissue": {
+            "uniq_id": "PO_0025034",
+            "label": "leaf",
+            "description": [
+                "A phyllome (PO:0006001) that is not associated with a reproductive structure."
+            ],
+            "synonyms": [
+                "hoja (Spanish, exact)",
+                "\u8449 (Japanese, exact)"
+            ]
+        },
+        "treatment": [
+            {
+                "uniq_id": "EO_0007404",
+                "label": "drought environment",
+                "description": [
+                    "an environment in plant experiments to understand how plants respond to episodic drought and watering pulse by depriving the plants of water supply"
+                ],
+                "synonyms": []
+            }
+        ],
+        "id": "GSM1586326"
+    },
+    {
+        "tissue": {
+            "uniq_id": "PO_0025034",
+            "label": "leaf",
+            "description": [
+                "A phyllome (PO:0006001) that is not associated with a reproductive structure."
+            ],
+            "synonyms": [
+                "hoja (Spanish, exact)",
+                "\u8449 (Japanese, exact)"
+            ]
+        },
+        "treatment": [
+            {
+                "uniq_id": "EFO_0001461",
+                "label": "control",
+                "description": [
+                    "A control role is borne by a material in a process in which results obtained from an experimental sample and a control sample are compared."
+                ],
+                "synonyms": [
+                    "Controlled",
+                    "Controlling",
+                    "reference sample"
+                ]
+            }
+        ],
+        "id": "GSM1586274"
+    },
+    {
+        "tissue": {
+            "uniq_id": "PO_0025034",
+            "label": "leaf",
+            "description": [
+                "A phyllome (PO:0006001) that is not associated with a reproductive structure."
+            ],
+            "synonyms": [
+                "hoja (Spanish, exact)",
+                "\u8449 (Japanese, exact)"
+            ]
+        },
+        "treatment": [
+            {
+                "uniq_id": "EFO_0001461",
+                "label": "control",
+                "description": [
+                    "A control role is borne by a material in a process in which results obtained from an experimental sample and a control sample are compared."
+                ],
+                "synonyms": [
+                    "Controlled",
+                    "Controlling",
+                    "reference sample"
+                ]
+            }
+        ],
+        "id": "GSM1586266"
+    },
+    {
+        "tissue": {
+            "uniq_id": "PO_0025034",
+            "label": "leaf",
+            "description": [
+                "A phyllome (PO:0006001) that is not associated with a reproductive structure."
+            ],
+            "synonyms": [
+                "hoja (Spanish, exact)",
+                "\u8449 (Japanese, exact)"
+            ]
+        },
+        "treatment": [
+            {
+                "uniq_id": "EFO_0001461",
+                "label": "control",
+                "description": [
+                    "A control role is borne by a material in a process in which results obtained from an experimental sample and a control sample are compared."
+                ],
+                "synonyms": [
+                    "Controlled",
+                    "Controlling",
+                    "reference sample"
+                ]
+            }
+        ],
+        "id": "GSM1586277"
+    },
+    {
+        "tissue": {
+            "uniq_id": "PO_0025034",
+            "label": "leaf",
+            "description": [
+                "A phyllome (PO:0006001) that is not associated with a reproductive structure."
+            ],
+            "synonyms": [
+                "hoja (Spanish, exact)",
+                "\u8449 (Japanese, exact)"
+            ]
+        },
+        "treatment": [
+            {
+                "uniq_id": "EO_0007404",
+                "label": "drought environment",
+                "description": [
+                    "an environment in plant experiments to understand how plants respond to episodic drought and watering pulse by depriving the plants of water supply"
+                ],
+                "synonyms": []
+            }
+        ],
+        "id": "GSM1586314"
+    },
+    {
+        "tissue": {
+            "uniq_id": "PO_0025034",
+            "label": "leaf",
+            "description": [
+                "A phyllome (PO:0006001) that is not associated with a reproductive structure."
+            ],
+            "synonyms": [
+                "hoja (Spanish, exact)",
+                "\u8449 (Japanese, exact)"
+            ]
+        },
+        "treatment": [
+            {
+                "uniq_id": "EO_0007404",
+                "label": "drought environment",
+                "description": [
+                    "an environment in plant experiments to understand how plants respond to episodic drought and watering pulse by depriving the plants of water supply"
+                ],
+                "synonyms": []
+            }
+        ],
+        "id": "GSM1586329"
+    },
+    {
+        "tissue": {
+            "uniq_id": "PO_0025034",
+            "label": "leaf",
+            "description": [
+                "A phyllome (PO:0006001) that is not associated with a reproductive structure."
+            ],
+            "synonyms": [
+                "hoja (Spanish, exact)",
+                "\u8449 (Japanese, exact)"
+            ]
+        },
+        "treatment": [
+            {
+                "uniq_id": "EO_0007404",
+                "label": "drought environment",
+                "description": [
+                    "an environment in plant experiments to understand how plants respond to episodic drought and watering pulse by depriving the plants of water supply"
+                ],
+                "synonyms": []
+            }
+        ],
+        "id": "GSM1586316"
+    },
+    {
+        "tissue": {
+            "uniq_id": "PO_0025034",
+            "label": "leaf",
+            "description": [
+                "A phyllome (PO:0006001) that is not associated with a reproductive structure."
+            ],
+            "synonyms": [
+                "hoja (Spanish, exact)",
+                "\u8449 (Japanese, exact)"
+            ]
+        },
+        "treatment": [
+            {
+                "uniq_id": "EFO_0001461",
+                "label": "control",
+                "description": [
+                    "A control role is borne by a material in a process in which results obtained from an experimental sample and a control sample are compared."
+                ],
+                "synonyms": [
+                    "Controlled",
+                    "Controlling",
+                    "reference sample"
+                ]
+            }
+        ],
+        "id": "GSM1586257"
+    },
+    {
+        "tissue": {
+            "uniq_id": "PO_0025034",
+            "label": "leaf",
+            "description": [
+                "A phyllome (PO:0006001) that is not associated with a reproductive structure."
+            ],
+            "synonyms": [
+                "hoja (Spanish, exact)",
+                "\u8449 (Japanese, exact)"
+            ]
+        },
+        "treatment": [
+            {
+                "uniq_id": "EFO_0001461",
+                "label": "control",
+                "description": [
+                    "A control role is borne by a material in a process in which results obtained from an experimental sample and a control sample are compared."
+                ],
+                "synonyms": [
+                    "Controlled",
+                    "Controlling",
+                    "reference sample"
+                ]
+            }
+        ],
+        "id": "GSM1586291"
+    },
+    {
+        "tissue": {
+            "uniq_id": "PO_0025034",
+            "label": "leaf",
+            "description": [
+                "A phyllome (PO:0006001) that is not associated with a reproductive structure."
+            ],
+            "synonyms": [
+                "hoja (Spanish, exact)",
+                "\u8449 (Japanese, exact)"
+            ]
+        },
+        "treatment": [
+            {
+                "uniq_id": "EO_0007404",
+                "label": "drought environment",
+                "description": [
+                    "an environment in plant experiments to understand how plants respond to episodic drought and watering pulse by depriving the plants of water supply"
+                ],
+                "synonyms": []
+            }
+        ],
+        "id": "GSM1586353"
+    },
+    {
+        "tissue": {
+            "uniq_id": "PO_0025034",
+            "label": "leaf",
+            "description": [
+                "A phyllome (PO:0006001) that is not associated with a reproductive structure."
+            ],
+            "synonyms": [
+                "hoja (Spanish, exact)",
+                "\u8449 (Japanese, exact)"
+            ]
+        },
+        "treatment": [
+            {
+                "uniq_id": "EO_0007404",
+                "label": "drought environment",
+                "description": [
+                    "an environment in plant experiments to understand how plants respond to episodic drought and watering pulse by depriving the plants of water supply"
+                ],
+                "synonyms": []
+            }
+        ],
+        "id": "GSM1586344"
+    },
+    {
+        "tissue": {
+            "uniq_id": "PO_0025034",
+            "label": "leaf",
+            "description": [
+                "A phyllome (PO:0006001) that is not associated with a reproductive structure."
+            ],
+            "synonyms": [
+                "hoja (Spanish, exact)",
+                "\u8449 (Japanese, exact)"
+            ]
+        },
+        "treatment": [
+            {
+                "uniq_id": "EFO_0001461",
+                "label": "control",
+                "description": [
+                    "A control role is borne by a material in a process in which results obtained from an experimental sample and a control sample are compared."
+                ],
+                "synonyms": [
+                    "Controlled",
+                    "Controlling",
+                    "reference sample"
+                ]
+            }
+        ],
+        "id": "GSM1586304"
+    },
+    {
+        "tissue": {
+            "uniq_id": "PO_0025034",
+            "label": "leaf",
+            "description": [
+                "A phyllome (PO:0006001) that is not associated with a reproductive structure."
+            ],
+            "synonyms": [
+                "hoja (Spanish, exact)",
+                "\u8449 (Japanese, exact)"
+            ]
+        },
+        "treatment": [
+            {
+                "uniq_id": "EFO_0001461",
+                "label": "control",
+                "description": [
+                    "A control role is borne by a material in a process in which results obtained from an experimental sample and a control sample are compared."
+                ],
+                "synonyms": [
+                    "Controlled",
+                    "Controlling",
+                    "reference sample"
+                ]
+            }
+        ],
+        "id": "GSM1586262"
+    },
+    {
+        "tissue": {
+            "uniq_id": "PO_0025034",
+            "label": "leaf",
+            "description": [
+                "A phyllome (PO:0006001) that is not associated with a reproductive structure."
+            ],
+            "synonyms": [
+                "hoja (Spanish, exact)",
+                "\u8449 (Japanese, exact)"
+            ]
+        },
+        "treatment": [
+            {
+                "uniq_id": "EO_0007404",
+                "label": "drought environment",
+                "description": [
+                    "an environment in plant experiments to understand how plants respond to episodic drought and watering pulse by depriving the plants of water supply"
+                ],
+                "synonyms": []
+            }
+        ],
+        "id": "GSM1586354"
+    },
+    {
+        "tissue": {
+            "uniq_id": "PO_0025034",
+            "label": "leaf",
+            "description": [
+                "A phyllome (PO:0006001) that is not associated with a reproductive structure."
+            ],
+            "synonyms": [
+                "hoja (Spanish, exact)",
+                "\u8449 (Japanese, exact)"
+            ]
+        },
+        "treatment": [
+            {
+                "uniq_id": null,
+                "label": "zer_test",
+                "description": null,
+                "synonyms": null
+            }
+        ],
+        "id": "GSM1586269"
+    },
+    {
+        "tissue": {
+            "uniq_id": "PO_0025034",
+            "label": "leaf",
+            "description": [
+                "A phyllome (PO:0006001) that is not associated with a reproductive structure."
+            ],
+            "synonyms": [
+                "hoja (Spanish, exact)",
+                "\u8449 (Japanese, exact)"
+            ]
+        },
+        "treatment": [
+            {
+                "uniq_id": "EFO_0001461",
+                "label": "control",
+                "description": [
+                    "A control role is borne by a material in a process in which results obtained from an experimental sample and a control sample are compared."
+                ],
+                "synonyms": [
+                    "Controlled",
+                    "Controlling",
+                    "reference sample"
+                ]
+            }
+        ],
+        "id": "GSM1586290"
+    },
+    {
+        "tissue": {
+            "uniq_id": "PO_0025034",
+            "label": "leaf",
+            "description": [
+                "A phyllome (PO:0006001) that is not associated with a reproductive structure."
+            ],
+            "synonyms": [
+                "hoja (Spanish, exact)",
+                "\u8449 (Japanese, exact)"
+            ]
+        },
+        "treatment": [
+            {
+                "uniq_id": "EO_0007404",
+                "label": "drought environment",
+                "description": [
+                    "an environment in plant experiments to understand how plants respond to episodic drought and watering pulse by depriving the plants of water supply"
+                ],
+                "synonyms": []
+            }
+        ],
+        "id": "GSM1586345"
+    },
+    {
+        "tissue": {
+            "uniq_id": "PO_0025034",
+            "label": "leaf",
+            "description": [
+                "A phyllome (PO:0006001) that is not associated with a reproductive structure."
+            ],
+            "synonyms": [
+                "hoja (Spanish, exact)",
+                "\u8449 (Japanese, exact)"
+            ]
+        },
+        "treatment": [
+            {
+                "uniq_id": "EFO_0001461",
+                "label": "control",
+                "description": [
+                    "A control role is borne by a material in a process in which results obtained from an experimental sample and a control sample are compared."
+                ],
+                "synonyms": [
+                    "Controlled",
+                    "Controlling",
+                    "reference sample"
+                ]
+            }
+        ],
+        "id": "GSM1586267"
+    },
+    {
+        "tissue": {
+            "uniq_id": "PO_0025034",
+            "label": "leaf",
+            "description": [
+                "A phyllome (PO:0006001) that is not associated with a reproductive structure."
+            ],
+            "synonyms": [
+                "hoja (Spanish, exact)",
+                "\u8449 (Japanese, exact)"
+            ]
+        },
+        "treatment": [
+            {
+                "uniq_id": "EFO_0001461",
+                "label": "control",
+                "description": [
+                    "A control role is borne by a material in a process in which results obtained from an experimental sample and a control sample are compared."
+                ],
+                "synonyms": [
+                    "Controlled",
+                    "Controlling",
+                    "reference sample"
+                ]
+            }
+        ],
+        "id": "GSM1586299"
+    },
+    {
+        "tissue": {
+            "uniq_id": "PO_0025034",
+            "label": "leaf",
+            "description": [
+                "A phyllome (PO:0006001) that is not associated with a reproductive structure."
+            ],
+            "synonyms": [
+                "hoja (Spanish, exact)",
+                "\u8449 (Japanese, exact)"
+            ]
+        },
+        "treatment": [
+            {
+                "uniq_id": null,
+                "label": "zer_test",
+                "description": null,
+                "synonyms": null
+            }
+        ],
+        "id": "GSM1586255"
+    },
+    {
+        "tissue": {
+            "uniq_id": "PO_0025034",
+            "label": "leaf",
+            "description": [
+                "A phyllome (PO:0006001) that is not associated with a reproductive structure."
+            ],
+            "synonyms": [
+                "hoja (Spanish, exact)",
+                "\u8449 (Japanese, exact)"
+            ]
+        },
+        "treatment": [
+            {
+                "uniq_id": "EO_0007404",
+                "label": "drought environment",
+                "description": [
+                    "an environment in plant experiments to understand how plants respond to episodic drought and watering pulse by depriving the plants of water supply"
+                ],
+                "synonyms": []
+            }
+        ],
+        "id": "GSM1586342"
+    },
+    {
+        "tissue": {
+            "uniq_id": "PO_0025034",
+            "label": "leaf",
+            "description": [
+                "A phyllome (PO:0006001) that is not associated with a reproductive structure."
+            ],
+            "synonyms": [
+                "hoja (Spanish, exact)",
+                "\u8449 (Japanese, exact)"
+            ]
+        },
+        "treatment": [
+            {
+                "uniq_id": "EFO_0001461",
+                "label": "control",
+                "description": [
+                    "A control role is borne by a material in a process in which results obtained from an experimental sample and a control sample are compared."
+                ],
+                "synonyms": [
+                    "Controlled",
+                    "Controlling",
+                    "reference sample"
+                ]
+            }
+        ],
+        "id": "GSM1586292"
+    },
+    {
+        "tissue": {
+            "uniq_id": "PO_0025034",
+            "label": "leaf",
+            "description": [
+                "A phyllome (PO:0006001) that is not associated with a reproductive structure."
+            ],
+            "synonyms": [
+                "hoja (Spanish, exact)",
+                "\u8449 (Japanese, exact)"
+            ]
+        },
+        "treatment": [
+            {
+                "uniq_id": "EFO_0001461",
+                "label": "control",
+                "description": [
+                    "A control role is borne by a material in a process in which results obtained from an experimental sample and a control sample are compared."
+                ],
+                "synonyms": [
+                    "Controlled",
+                    "Controlling",
+                    "reference sample"
+                ]
+            }
+        ],
+        "id": "GSM1586298"
+    },
+    {
+        "tissue": {
+            "uniq_id": "PO_0025034",
+            "label": "leaf",
+            "description": [
+                "A phyllome (PO:0006001) that is not associated with a reproductive structure."
+            ],
+            "synonyms": [
+                "hoja (Spanish, exact)",
+                "\u8449 (Japanese, exact)"
+            ]
+        },
+        "treatment": [
+            {
+                "uniq_id": "EO_0007404",
+                "label": "drought environment",
+                "description": [
+                    "an environment in plant experiments to understand how plants respond to episodic drought and watering pulse by depriving the plants of water supply"
+                ],
+                "synonyms": []
+            }
+        ],
+        "id": "GSM1586333"
+    },
+    {
+        "tissue": {
+            "uniq_id": "PO_0025034",
+            "label": "leaf",
+            "description": [
+                "A phyllome (PO:0006001) that is not associated with a reproductive structure."
+            ],
+            "synonyms": [
+                "hoja (Spanish, exact)",
+                "\u8449 (Japanese, exact)"
+            ]
+        },
+        "treatment": [
+            {
+                "uniq_id": "EO_0007404",
+                "label": "drought environment",
+                "description": [
+                    "an environment in plant experiments to understand how plants respond to episodic drought and watering pulse by depriving the plants of water supply"
+                ],
+                "synonyms": []
+            }
+        ],
+        "id": "GSM1586324"
+    },
+    {
+        "tissue": {
+            "uniq_id": "PO_0025034",
+            "label": "leaf",
+            "description": [
+                "A phyllome (PO:0006001) that is not associated with a reproductive structure."
+            ],
+            "synonyms": [
+                "hoja (Spanish, exact)",
+                "\u8449 (Japanese, exact)"
+            ]
+        },
+        "treatment": [
+            {
+                "uniq_id": "EFO_0001461",
+                "label": "control",
+                "description": [
+                    "A control role is borne by a material in a process in which results obtained from an experimental sample and a control sample are compared."
+                ],
+                "synonyms": [
+                    "Controlled",
+                    "Controlling",
+                    "reference sample"
+                ]
+            }
+        ],
+        "id": "GSM1586261"
+    },
+    {
+        "tissue": {
+            "uniq_id": "PO_0025034",
+            "label": "leaf",
+            "description": [
+                "A phyllome (PO:0006001) that is not associated with a reproductive structure."
+            ],
+            "synonyms": [
+                "hoja (Spanish, exact)",
+                "\u8449 (Japanese, exact)"
+            ]
+        },
+        "treatment": [
+            {
+                "uniq_id": "EO_0007404",
+                "label": "drought environment",
+                "description": [
+                    "an environment in plant experiments to understand how plants respond to episodic drought and watering pulse by depriving the plants of water supply"
+                ],
+                "synonyms": []
+            }
+        ],
+        "id": "GSM1586355"
+    },
+    {
+        "tissue": {
+            "uniq_id": "PO_0025034",
+            "label": "leaf",
+            "description": [
+                "A phyllome (PO:0006001) that is not associated with a reproductive structure."
+            ],
+            "synonyms": [
+                "hoja (Spanish, exact)",
+                "\u8449 (Japanese, exact)"
+            ]
+        },
+        "treatment": [
+            {
+                "uniq_id": "EO_0007404",
+                "label": "drought environment",
+                "description": [
+                    "an environment in plant experiments to understand how plants respond to episodic drought and watering pulse by depriving the plants of water supply"
+                ],
+                "synonyms": []
+            }
+        ],
+        "id": "GSM1586357"
+    }
+]

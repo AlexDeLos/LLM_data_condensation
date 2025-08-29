@@ -15,4 +15,5 @@ dependencies = [
     "langchain-openai>=0.3.31",
     "langgraph>=0.6.6",
     "mcp>=1.13.1",
+    "plotly>=6.3.0",
 ]

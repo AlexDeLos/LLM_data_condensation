@@ -1,5 +1,4 @@
 import json
-import uuid
 import requests
 import sys
 from typing import List, Optional
@@ -121,7 +120,7 @@ def ground_labels_with_api_call(data: dict) -> dict:
         api_response = get_top_ontology_class_label(term,'HIGH',('PO'))
          #! took the first api link here
         if api_response:
-            grounded_data['tissue'] = get_ols_information()
+            grounded_data['tissue'] = get_ols_information(api_response[0])
         else:
             grounded_data['tissue'] ={
                                             "uniq_id" :'NA',
@@ -154,7 +153,7 @@ def ground_labels_with_api_call(data: dict) -> dict:
     return grounded_data
 
 
-sample_data = load_json('labels.json')#[180:200]
+sample_data = load_json('labels.json')[500:600]
 for sample in sample_data:
     del sample['medium']
 # Process the data and ground the labels
@@ -167,7 +166,7 @@ for item in tqdm(sample_data):
 
 with open(f'grounded.json', 'w') as handle:
     json.dump(grounded_data, handle)
-grounded_data = load_json('grounded.json')
+# grounded_data = load_json('grounded.json')
 # check LLM
 
 def check_gorundings(grounded_data,sample_data):
